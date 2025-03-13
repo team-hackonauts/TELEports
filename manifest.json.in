@@ -1,0 +1,22 @@
+{
+    "name": "teleports.ubports",
+    "description": "An Ubuntu Touch Telegram client",
+    "architecture": "$ENV{ARCH}",
+    "title": "TELEports",
+    "hooks": {
+        "teleports": {
+            "apparmor": "teleports.apparmor",
+            "desktop":  "teleports.desktop",
+            "content-hub": "teleports.content-hub",
+            "urls": "teleports.url-dispatcher"
+        },
+        "push": {
+            "apparmor": "push/push-apparmor.json",
+            "push-helper": "push/push-helper.json"
+        }
+    },
+    "version": "@BUILD_VERSION@",
+    "icon": "assets/icon.svg",
+    "maintainer": "UBports <dev@ubports.com>",
+    "framework" : "$ENV{SDK_FRAMEWORK}"
+}

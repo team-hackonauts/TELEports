@@ -1,0 +1,1524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the teleports.ubports package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: teleports.ubports\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 04:14+0000\n"
+"PO-Revision-Date: 2025-03-13 06:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/teleports/"
+"ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.3-dev\n"
+
+#: ../app/qml/actions/BackAction.qml:10
+msgid "Back"
+msgstr "பின்"
+
+#: ../app/qml/components/CountryPicker.qml:21
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:36
+msgid "Choose a country"
+msgstr "ஒரு நாட்டைத் தேர்வுசெய்க"
+
+#: ../app/qml/components/CountryPicker.qml:38
+msgid "Search country name..."
+msgstr "நாட்டின் பெயரைத் தேடுங்கள் ..."
+
+#: ../app/qml/components/DeleteDialog.qml:11
+msgid "Delete Message"
+msgstr "செய்தியை நீக்கு"
+
+#: ../app/qml/components/DeleteDialog.qml:13
+msgid "Do you really want to delete it?"
+msgstr "நீங்கள் உண்மையில் அதை நீக்க விரும்புகிறீர்களா?"
+
+#: ../app/qml/components/DeleteDialog.qml:13
+msgid ""
+"The message will be deleted for all users in the chat. Do you really want to "
+"delete it?"
+msgstr ""
+"அரட்டையில் உள்ள அனைத்து பயனர்களுக்கும் செய்தி நீக்கப்படும். நீங்கள் உண்மையில் அதை நீக்க "
+"விரும்புகிறீர்களா?"
+
+#: ../app/qml/components/DeleteDialog.qml:14
+msgid ""
+"The message will be deleted only for you. Do you really want to delete it?"
+msgstr ""
+"செய்தி உங்களுக்காக மட்டுமே நீக்கப்படும். நீங்கள் உண்மையில் அதை நீக்க விரும்புகிறீர்களா?"
+
+#: ../app/qml/components/DeleteDialog.qml:16
+#: ../app/qml/delegates/MessageBubbleItem.qml:37
+#: ../app/qml/middleware/SettingsMiddleware.qml:28
+#: ../app/qml/pages/ProxyManagementPage.qml:78
+#: ../app/qml/pages/SettingsPage.qml:193 ../app/qml/pages/UserListPage.qml:121
+#: ../app/qml/pages/UserListPage.qml:215
+msgid "Delete"
+msgstr "நீக்கு"
+
+#: ../app/qml/components/DeleteDialog.qml:29
+#: ../app/qml/middleware/ChatMiddleware.qml:109
+msgid "Delete for all users"
+msgstr "அனைத்து பயனர்களுக்கும் நீக்கு"
+
+#: ../app/qml/components/GroupPreviewDialog.qml:35
+#: ../app/qml/pages/MessageListPage.qml:37
+msgid "%1 member"
+msgid_plural "%1 members"
+msgstr[0] "%1 உறுப்பினர்"
+msgstr[1] "%1 உறுப்பினர்கள்"
+
+#: ../app/qml/components/GroupPreviewDialog.qml:37
+msgid "%1 members, among them:"
+msgstr "அவர்களில் %1 உறுப்பினர்கள்:"
+
+#: ../app/qml/components/InputInfoBox.qml:91
+msgid "Edit message"
+msgstr "செய்தியைத் திருத்தவும்"
+
+#: ../app/qml/components/MessageStatusRow.qml:36
+msgid "Edited"
+msgstr "திருத்தப்பட்டது"
+
+#: ../app/qml/components/PopupDialog.qml:14
+msgid "Okay"
+msgstr "சரி"
+
+#: ../app/qml/components/PopupDialog.qml:15
+#: ../app/qml/components/PopupWaitCancel.qml:13
+#: ../app/qml/pages/ChatListPage.qml:34
+msgid "Cancel"
+msgstr "ரத்துசெய்"
+
+#: ../app/qml/components/SendMediaDialog.qml:19
+msgid "Would you like to send text?"
+msgstr "உரையை அனுப்ப விரும்புகிறீர்களா?"
+
+#: ../app/qml/components/SendMediaDialog.qml:20
+msgid "Would you like to send file?"
+msgid_plural "Would you like to send files?"
+msgstr[0] "கோப்பை அனுப்ப விரும்புகிறீர்களா?"
+msgstr[1] "கோப்புகளை அனுப்ப விரும்புகிறீர்களா?"
+
+#: ../app/qml/components/SendMediaDialog.qml:22
+#: ../app/qml/components/SendMessageOptionsDialog.qml:21
+#: ../app/qml/pages/ChatListPage.qml:529
+#: ../app/qml/pages/MessageListPage.qml:879
+msgid "Send"
+msgstr "அனுப்பு"
+
+#: ../app/qml/components/SendMediaDialog.qml:91
+msgid "Send uncompressed"
+msgstr "சுருக்கப்படாததை அனுப்புங்கள்"
+
+#: ../app/qml/components/SendMediaDialog.qml:119
+msgid "Send as album"
+msgstr "ஆல்பமாக அனுப்பு"
+
+#: ../app/qml/components/SendMediaDialog.qml:155
+#: ../app/qml/pages/ChatListPage.qml:519 ../app/qml/pages/ChatListPage.qml:543
+msgid "Enter optional message..."
+msgstr "விருப்ப செய்தியை உள்ளிடவும் ..."
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:20
+msgid "Send Message options"
+msgstr "செய்தி விருப்பங்களை அனுப்பவும்"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:29
+msgid "Send push notification"
+msgstr "புச் அறிவிப்பை அனுப்பவும்"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:36
+msgid "Schedule message:"
+msgstr "அட்டவணை செய்தி:"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:55
+msgid "Send immediately"
+msgstr "உடனடியாக அனுப்புங்கள்"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:68
+msgid "Wait until specified date and time"
+msgstr "குறிப்பிட்ட தேதி மற்றும் நேரம் வரை காத்திருங்கள்"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:82
+msgid "Wait until the receiver goes online"
+msgstr "ரிசீவர் ஆன்லைனில் செல்லும் வரை காத்திருங்கள்"
+
+#: ../app/qml/components/SetTTLDialog.qml:17
+msgid "Self-destruct timer for messages in this chat:"
+msgstr "இந்த அரட்டையில் செய்திகளுக்கான சுய-அழிவு டைமர்:"
+
+#: ../app/qml/components/SetTTLDialog.qml:67
+#: ../app/qml/components/SetTTLDialog.qml:71
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:22
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 நொடி"
+msgstr[1] "%1 வினாடிகள்"
+
+#: ../app/qml/components/SetTTLDialog.qml:75
+msgid "1 minute"
+msgstr "1 மணித்துளி"
+
+#: ../app/qml/components/SetTTLDialog.qml:79
+msgid "1 hour"
+msgstr "1 மணி நேரம்"
+
+#: ../app/qml/components/SetTTLDialog.qml:83
+msgid "1 day"
+msgstr "1 நாள்"
+
+#: ../app/qml/components/SetTTLDialog.qml:87
+msgid "1 week"
+msgstr "1 வாரம்"
+
+#: ../app/qml/components/SetTTLDialog.qml:91
+msgid "Off"
+msgstr "அணை"
+
+#: ../app/qml/components/UserProfile.qml:74
+msgid "Members: %1"
+msgstr "உறுப்பினர்கள்: %1"
+
+#: ../app/qml/delegates/MessageBasicGroupChatCreate.qml:6
+msgid "Channel called <b>%1</b> created"
+msgstr "சேனல் <b>%1 </b> உருவாக்கப்பட்டது"
+
+#: ../app/qml/delegates/MessageBasicGroupChatCreate.qml:7
+msgid "%1 created a group called <b>%2</b>"
+msgstr "%1 <b>%2 </b> என்ற குழுவை உருவாக்கியது"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:49
+msgid "Copy"
+msgstr "நகலெடு"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:59
+#: ../app/qml/pages/ChatInfoPage.qml:34
+#: ../app/qml/pages/ProxyManagementPage.qml:87
+msgid "Edit"
+msgstr "தொகு"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:67
+msgid "Reply"
+msgstr "பதில்"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:73
+msgid "Sticker Pack info"
+msgstr "ச்டிக்கர் பேக் செய்தி"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:80
+msgid "Copy link"
+msgstr "இணைப்பை நகலெடுக்கவும்"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:88
+#: ../app/qml/pages/ChatListPage.qml:506
+msgid "Forward"
+msgstr "முன்னோக்கி"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:8
+msgid "%1 joined the group"
+msgstr "%1 குழுவில் சேர்ந்தது"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:9
+msgid "%1 added %2"
+msgstr "%1 சேர்க்கப்பட்ட %2"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:10
+msgid "Unknown joined group"
+msgstr "தெரியாதது குழுவில் இணைந்தது"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:32
+msgid "%1 user(s)"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/qml/delegates/MessageChatChangePhoto.qml:32
+msgid "Channel photo has been changed:"
+msgstr "சேனல் புகைப்படம் மாற்றப்பட்டுள்ளது:"
+
+#: ../app/qml/delegates/MessageChatChangePhoto.qml:33
+msgid "%1 changed the chat photo:"
+msgstr "%1 அரட்டை புகைப்படத்தை மாற்றியது:"
+
+#: ../app/qml/delegates/MessageChatChangeTitle.qml:6
+msgid "Channel title has been changed to <b>%1</b>"
+msgstr "சேனல் தலைப்பு <b>%1 </b> என மாற்றப்பட்டுள்ளது"
+
+#: ../app/qml/delegates/MessageChatChangeTitle.qml:7
+msgid "%1 changed the chat title to <b>%2</b>"
+msgstr "%1 அரட்டை தலைப்பை <b>%2 </b> ஆக மாற்றியது"
+
+#: ../app/qml/delegates/MessageChatDeleteMember.qml:6
+msgid "%1 left the group"
+msgstr "%1 குழுவை விட்டு வெளியேறியது"
+
+#. TRANSLATORS: Notification message saying: person A removed person B (from a group)
+#: ../app/qml/delegates/MessageChatDeleteMember.qml:7
+#: ../push/pushhelper.cpp:238
+msgid "%1 removed %2"
+msgstr "%1 அகற்றப்பட்டது %2"
+
+#: ../app/qml/delegates/MessageChatDeletePhoto.qml:6
+msgid "Channel photo has been removed"
+msgstr "சேனல் புகைப்படம் அகற்றப்பட்டது"
+
+#: ../app/qml/delegates/MessageChatDeletePhoto.qml:7
+msgid "%1 deleted the chat photo"
+msgstr "%1 அரட்டை புகைப்படத்தை நீக்கியது"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:14
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 நாள்"
+msgstr[1] "%1 நாட்கள்"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:17
+msgid "%1 month"
+msgid_plural "%1 months"
+msgstr[0] "%1 மாதம்"
+msgstr[1] "%1 மாதங்கள்"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:20
+msgid "%1 year"
+msgid_plural "%1 years"
+msgstr[0] "%1 வருடம்"
+msgstr[1] "%1 ஆண்டுகள்"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:25
+msgid "Auto-delete timer was set to <b>%1</b>"
+msgstr "ஆட்டோ-டெலேட் நேரங்குறிகருவி <b>%1 </b> ஆக அமைக்கப்பட்டது"
+
+#: ../app/qml/delegates/MessageChatUpgradeFrom.qml:4
+#: ../app/qml/delegates/MessageChatUpgradeTo.qml:4
+msgid "Group has been upgraded to Supergroup"
+msgstr "குழு சூப்பர் குழுவாக மேம்படுத்தப்பட்டுள்ளது"
+
+#: ../app/qml/delegates/MessageContactRegistered.qml:5
+msgid "%1 has joined Telegram!"
+msgstr "%1 டெலிகிராமில் சேர்ந்துள்ளது!"
+
+#: ../app/qml/delegates/MessageContentBase.qml:41
+msgid "Forwarded from %1"
+msgstr "%1 இலிருந்து அனுப்பப்பட்டது"
+
+#. TRANSLATORS: This is the duration of a phone call in hours:minutes:seconds format
+#: ../app/qml/delegates/MessageContentCall.qml:62
+msgid "Duration: %1:%2:%3"
+msgstr "காலம்:%1:%2:%3"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:51
+msgid "Final result"
+msgstr "இறுதி முடிவு"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:53
+msgid "Anonymous Poll"
+msgstr "அநாமதேய வாக்கெடுப்பு"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:155
+msgid "Reset vote"
+msgstr "வாக்கெடுப்பை மீட்டமை"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:155
+msgid "Vote!"
+msgstr "வாக்களியுங்கள்!"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:166
+msgid "%1 vote"
+msgid_plural "%1 votes"
+msgstr[0] "%1 வாக்கு"
+msgstr[1] "%1 வாக்குகள்"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:166
+msgid "No votes yet"
+msgstr "இன்னும் வாக்குகள் இல்லை"
+
+#: ../app/qml/delegates/MessageContentVoiceNote.qml:56
+msgid "Voice note"
+msgstr "குரல் குறிப்பு"
+
+#: ../app/qml/delegates/MessageDateItem.qml:4
+msgid "Some date missing"
+msgstr "சில தேதி காணவில்லை"
+
+#: ../app/qml/delegates/MessageJoinByLink.qml:5
+msgid "%1 joined by invite link"
+msgstr "%1 அழைப்பிதழ் இணைப்புடன் இணைந்தது"
+
+#: ../app/qml/delegates/MessagePinMessage.qml:6
+#: ../app/qml/delegates/MessagePinMessage.qml:7 ../push/pushhelper.cpp:301
+msgid "%1 pinned a message"
+msgstr "%1 ஒரு செய்தியை பொருத்தியது"
+
+#: ../app/qml/delegates/MessageScreenshotTaken.qml:4
+msgid "A screenshot has been taken"
+msgstr "ஒரு திரை காட்சி எடுக்கப்பட்டுள்ளது"
+
+#: ../app/qml/delegates/MessageUnavailable.qml:11
+msgid "Message Unavailable..."
+msgstr "செய்தி கிடைக்கவில்லை ..."
+
+#: ../app/qml/delegates/MessageUnreadLabelItem.qml:4
+msgid "Missing label..."
+msgstr "காணாமல் போன சிட்டை ..."
+
+#: ../app/qml/delegates/MessageUnsupported.qml:4
+#: ../libs/qtdlib/messages/content/qtdmessageunsupported.cpp:13
+msgid "Unsupported message"
+msgstr "ஆதரிக்கப்படாத செய்தி"
+
+#: ../app/qml/delegates/NotImplementedYet.qml:12
+msgid "Unknown message type, see logfile for details..."
+msgstr "அறியப்படாத செய்தி வகை, விவரங்களுக்கு logfile ஐப் பார்க்கவும் ..."
+
+#: ../app/qml/middleware/ChatMiddleware.qml:107
+msgid "Are you sure you want to clear the history?"
+msgstr "வரலாற்றை அழிக்க விரும்புகிறீர்களா?"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:108
+#: ../app/qml/pages/ChatListPage.qml:265
+msgid "Clear history"
+msgstr "வரலாற்றை அழிக்கவும்"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:119
+msgid "Are you sure you want to leave this chat?"
+msgstr "இந்த அரட்டையை விட்டு வெளியேற விரும்புகிறீர்களா?"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:120
+msgid "Leave"
+msgstr "விடுப்பு"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:136
+msgid "Join group"
+msgstr "குழுவில் சேரவும்"
+
+#: ../app/qml/middleware/ErrorsMiddleware.qml:19
+msgid "Close"
+msgstr "மூடு"
+
+#: ../app/qml/middleware/SettingsMiddleware.qml:17
+msgid "Are you sure you want to delete this proxy server?"
+msgstr "இந்த பதிலாள் சேவையகத்தை நீக்க விரும்புகிறீர்களா?"
+
+#: ../app/qml/pages/AboutPage.qml:13 ../app/qml/pages/ChatListPage.qml:182
+msgid "About"
+msgstr "பற்றி"
+
+#. TRANSLATORS: Application name.
+#: ../app/qml/pages/AboutPage.qml:65 ../push/pushhelper.cpp:114
+#: teleports.desktop.in.h:1
+msgid "TELEports"
+msgstr "டெலிபோர்ட்ச்"
+
+#: ../app/qml/pages/AboutPage.qml:71
+msgid "Version %1"
+msgstr "பதிப்பு %1"
+
+#: ../app/qml/pages/AboutPage.qml:73
+msgid " (git# %1)"
+msgstr " (git# %1)"
+
+#: ../app/qml/pages/AboutPage.qml:92
+msgid "Get the source"
+msgstr "மூலத்தைப் பெறுங்கள்"
+
+#: ../app/qml/pages/AboutPage.qml:93
+msgid "Report issues"
+msgstr "சிக்கல்களைப் புகாரளிக்கவும்"
+
+#: ../app/qml/pages/AboutPage.qml:94
+msgid "Help translate"
+msgstr "மொழிபெயர்க்க உதவுங்கள்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:21
+msgid "Group Details"
+msgstr "குழு விவரங்கள்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:21
+msgid "Profile"
+msgstr "சுயவிவரம்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:40
+msgid "Send message"
+msgstr "செய்தி அனுப்பவும்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:60
+msgid "Edit user data and press Save"
+msgstr "பயனர் தரவைத் திருத்தி சேமி என்பதை அழுத்தவும்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:62
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:45
+msgid "Save"
+msgstr "சேமி"
+
+#: ../app/qml/pages/ChatInfoPage.qml:70
+msgid "Hidden Number"
+msgstr "மறைக்கப்பட்ட எண்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:80 ../app/qml/pages/UserListPage.qml:75
+msgid "First name"
+msgstr "முதல் பெயர்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:89 ../app/qml/pages/UserListPage.qml:83
+msgid "Last name"
+msgstr "கடைசி பெயர்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:128
+msgid "Notifications"
+msgstr "அறிவிப்புகள்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:157
+msgid "%1 group in common"
+msgid_plural "%1 groups in common"
+msgstr[0] "1 பொதுவான 1 குழு"
+msgstr[1] "1 பொதுவான 1 குழுக்கள்"
+
+#: ../app/qml/pages/ChatInfoPage.qml:182
+#: ../app/qml/pages/SecretChatKeyHashPage.qml:15
+msgid "Encryption Key"
+msgstr "குறியாக்க விசை"
+
+#: ../app/qml/pages/ChatInfoPage.qml:200
+msgid "Set self-destruct timer"
+msgstr "சுய-அழிவு டைமரை அமைக்கவும்"
+
+#: ../app/qml/pages/ChatListPage.qml:42 ../app/qml/pages/ChatListPage.qml:138
+#: ../app/qml/pages/SettingsPage.qml:22
+msgid "Settings"
+msgstr "அமைப்புகள்"
+
+#: ../app/qml/pages/ChatListPage.qml:65
+msgid "Search"
+msgstr "தேடல்"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "All"
+msgstr "அனைத்தும்"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Archived"
+msgstr "காப்பகப்படுத்தப்பட்டது"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Personal"
+msgstr "தனிப்பட்ட"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Unread"
+msgstr "படிக்காதது"
+
+#: ../app/qml/pages/ChatListPage.qml:128 ../libs/qtdlib/chat/qtdchat.cpp:83
+msgid "Saved Messages"
+msgstr "சேமித்த செய்திகள்"
+
+#: ../app/qml/pages/ChatListPage.qml:133 ../app/qml/pages/UserListPage.qml:19
+msgid "Contacts"
+msgstr "தொடர்புகள்"
+
+#: ../app/qml/pages/ChatListPage.qml:152
+msgid "System"
+msgstr "மண்டலம்"
+
+#: ../app/qml/pages/ChatListPage.qml:161
+msgid "Dark"
+msgstr "இருண்ட"
+
+#: ../app/qml/pages/ChatListPage.qml:170
+msgid "Light"
+msgstr "ஒளி"
+
+#: ../app/qml/pages/ChatListPage.qml:207
+msgid "Select destination:"
+msgstr "இலக்கு என்பதைத் தேர்ந்தெடுக்கவும்:"
+
+#: ../app/qml/pages/ChatListPage.qml:208
+msgid "or cancel the operation"
+msgstr "அல்லது செயல்பாட்டை ரத்துசெய்"
+
+#: ../app/qml/pages/ChatListPage.qml:260
+msgid "Leave chat"
+msgstr "அரட்டையை விட்டு விடுங்கள்"
+
+#: ../app/qml/pages/ChatListPage.qml:276 ../app/qml/pages/UserListPage.qml:131
+msgid "Info"
+msgstr "தகவல்"
+
+#: ../app/qml/pages/ChatListPage.qml:281
+msgid "Un/pin"
+msgstr "ஏ/பைன்"
+
+#: ../app/qml/pages/ChatListPage.qml:504
+msgid "Do you want to forward the selected messages to %1?"
+msgstr "தேர்ந்தெடுக்கப்பட்ட செய்திகளை %1 க்கு அனுப்ப விரும்புகிறீர்களா?"
+
+#: ../app/qml/pages/ChatListPage.qml:527
+msgid "Do you want to send the imported text to %1?"
+msgstr "இறக்குமதி செய்யப்பட்ட உரையை %1 க்கு அனுப்ப விரும்புகிறீர்களா?"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:28
+msgid "Connecting"
+msgstr "இணைத்தல்"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:26
+msgid "Offline"
+msgstr "இணையமில்லாமல்"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:30
+#: ../libs/qtdlib/user/qtduserstatus.cpp:78
+msgid "Online"
+msgstr "ஆன்லைனில்"
+
+#: ../app/qml/pages/ConnectivityPage.qml:27
+msgid "Connecting To Proxy"
+msgstr "ப்ராக்சியுடன் இணைக்கிறது"
+
+#: ../app/qml/pages/ConnectivityPage.qml:29
+msgid "Updating"
+msgstr "புதுப்பித்தல்"
+
+#: ../app/qml/pages/ConnectivityPage.qml:35
+msgid "Connectivity"
+msgstr "இணைப்பு"
+
+#: ../app/qml/pages/ConnectivityPage.qml:73
+msgid "Telegram connectivity status:"
+msgstr "தந்தி இணைப்பு நிலை:"
+
+#: ../app/qml/pages/ConnectivityPage.qml:80
+msgid "Ubuntu Touch connectivity status:"
+msgstr "உபுண்டு டச் இணைப்பு நிலை:"
+
+#: ../app/qml/pages/ConnectivityPage.qml:87
+msgid "Ubuntu Touch bandwith limited"
+msgstr "உபுண்டு டச் அலைவான் லிமிடெட்"
+
+#: ../app/qml/pages/ConnectivityPage.qml:87
+msgid "Ubuntu Touch bandwith not limited"
+msgstr "உபுண்டு டச் அலைவரிசை மட்டுப்படுத்தப்படவில்லை"
+
+#: ../app/qml/pages/LogoutPage.qml:14
+msgid "Good bye!"
+msgstr "குட் பை!"
+
+#: ../app/qml/pages/LogoutPage.qml:27
+msgid "Disconnecting..."
+msgstr "துண்டித்தல் ..."
+
+#: ../app/qml/pages/LogoutPage.qml:37
+msgid ""
+"The app will close automatically when the logout process ends.\n"
+"Please, don't close it manually!"
+msgstr ""
+"வெளியேறும் செயல்முறை முடிவடையும் போது பயன்பாடு தானாகவே மூடப்படும்.\n"
+" தயவுசெய்து, அதை கைமுறையாக மூட வேண்டாம்!"
+
+#: ../app/qml/pages/MessageListPage.qml:39
+msgid ", %1 online"
+msgid_plural ", %1 online"
+msgstr[0] ", %1 நிகழ்நிலை"
+msgstr[1] ", %1 நிகழ்நிலை"
+
+#: ../app/qml/pages/MessageListPage.qml:101
+msgid "Telegram"
+msgstr "தந்தி"
+
+#: ../app/qml/pages/MessageListPage.qml:226
+msgid "Unknown contact"
+msgstr "தெரியாத தொடர்பு"
+
+#: ../app/qml/pages/MessageListPage.qml:228
+msgid "You were added to an unknown chat"
+msgstr "நீங்கள் அறியப்படாத அரட்டையில் சேர்க்கப்பட்டீர்கள்"
+
+#: ../app/qml/pages/MessageListPage.qml:242
+msgid "Add to contacts"
+msgstr "தொடர்புகளில் சேர்க்கவும்"
+
+#: ../app/qml/pages/MessageListPage.qml:244
+msgid "Report spam and leave"
+msgstr "ச்பேம் புகாரளித்து விடுங்கள்"
+
+#: ../app/qml/pages/MessageListPage.qml:360
+msgid "You are not allowed to post in this channel"
+msgstr "இந்த சேனலில் இடுகையிட உங்களுக்கு இசைவு இல்லை"
+
+#: ../app/qml/pages/MessageListPage.qml:364
+msgid "Waiting for other party to accept the secret chat..."
+msgstr "ரகசிய அரட்டையை மற்ற கட்சி ஏற்றுக்கொள்ள காத்திருக்கிறது ..."
+
+#: ../app/qml/pages/MessageListPage.qml:366
+msgid "Secret chat has been closed"
+msgstr "ரகசிய அரட்டை மூடப்பட்டுள்ளது"
+
+#: ../app/qml/pages/MessageListPage.qml:374
+msgid "You left this group"
+msgstr "நீங்கள் இந்த குழுவை விட்டு வெளியேறினீர்கள்"
+
+#: ../app/qml/pages/MessageListPage.qml:377
+msgid "You have been banned"
+msgstr "உங்களுக்கு தடை விதிக்கப்பட்டுள்ளது"
+
+#: ../app/qml/pages/MessageListPage.qml:380
+msgid "You are not allowed to post in this group"
+msgstr "இந்த குழுவில் இடுகையிட உங்களுக்கு இசைவு இல்லை"
+
+#: ../app/qml/pages/MessageListPage.qml:384
+msgid "You can't write here. Reason unkown"
+msgstr "நீங்கள் இங்கே எழுத முடியாது. காரணம் தெரியவில்லை"
+
+#: ../app/qml/pages/MessageListPage.qml:407
+msgid "Join"
+msgstr "சேர"
+
+#: ../app/qml/pages/MessageListPage.qml:533
+msgid "Type a message..."
+msgstr "ஒரு செய்தியைத் தட்டச்சு செய்க ..."
+
+#: ../app/qml/pages/MessageListPage.qml:767
+msgid "<<< Swipe to cancel"
+msgstr "<<< ரத்து செய்ய ச்வைப் செய்யவும்"
+
+#: ../app/qml/pages/MessageListPage.qml:877
+msgid "Do you want to share your location with %1?"
+msgstr "உங்கள் இருப்பிடத்தை %1 உடன் பகிர்ந்து கொள்ள விரும்புகிறீர்களா?"
+
+#: ../app/qml/pages/MessageListPage.qml:890
+msgid "Requesting location from OS..."
+msgstr "OS இலிருந்து இருப்பிடத்தைக் கோருகிறது ..."
+
+#: ../app/qml/pages/MessageListPage.qml:985
+msgid "Copied message link to clipboard!"
+msgstr "இடைநிலைப்பலகைக்கு செய்தி இணைப்பை நகலெடுத்தது!"
+
+#: ../app/qml/pages/PickerPage.qml:16
+msgid "Content Picker"
+msgstr "உள்ளடக்க தேர்வாளர்"
+
+#: ../app/qml/pages/PreviewPage.qml:55
+msgid "Share"
+msgstr "பங்கு"
+
+#: ../app/qml/pages/ProxyManagementPage.qml:19
+#: ../app/qml/pages/SettingsPage.qml:101
+msgid "Proxy Management"
+msgstr "பதிலாள் மேலாண்மை"
+
+#: ../app/qml/pages/ProxyManagementPage.qml:38
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:27
+msgid "Add proxy server"
+msgstr "பதிலாள் சேவையகத்தைச் சேர்க்கவும்"
+
+#: ../app/qml/pages/ProxyManagementPage.qml:115
+msgid "Port: %1 Type: %2 Ping: %3ms"
+msgstr "போர்ட்: %1 வகை: %2 பிங்: %3 மீ"
+
+#: ../app/qml/pages/SecretChatKeyHashPage.qml:66
+msgid ""
+"Check the image or the text. If they match with the ones on <b>%1</b>'s "
+"device, end-to-end cryptography is granted."
+msgstr ""
+"படம் அல்லது உரையை சரிபார்க்கவும். <b>%1 </b> இன் சாதனத்தில் அவை பொருந்தினால், இறுதி "
+"முதல் இறுதி குறியாக்கவியல் வழங்கப்படுகிறது."
+
+#: ../app/qml/pages/SettingsPage.qml:69 ../app/qml/pages/SettingsPage.qml:183
+msgid "Logout"
+msgstr "வெளியேற்றம்"
+
+#: ../app/qml/pages/SettingsPage.qml:85
+msgid "Delete account"
+msgstr "கணக்கை நீக்கு"
+
+#: ../app/qml/pages/SettingsPage.qml:117
+msgid "Connectivity status"
+msgstr "இணைப்பு நிலை"
+
+#: ../app/qml/pages/SettingsPage.qml:134
+msgid "Toggle message status indicators"
+msgstr "செய்தி நிலை குறிகாட்டிகளை மாற்றவும்"
+
+#: ../app/qml/pages/SettingsPage.qml:161
+msgid "Navigate through replied messages"
+msgstr "பதிலளித்த செய்திகள் மூலம் செல்லவும்"
+
+#: ../app/qml/pages/SettingsPage.qml:181
+msgid ""
+"Warning: Logging out will delete all local data from this device, including "
+"secret chats. Are you still sure you want to log out?"
+msgstr ""
+"எச்சரிக்கை: உள்நுழைவது இரகசிய அரட்டைகள் உட்பட இந்த சாதனத்திலிருந்து அனைத்து உள்ளக "
+"தரவையும் நீக்கிவிடும். நீங்கள் வெளியேற விரும்புகிறீர்கள் என்பதில் உறுதியாக இருக்கிறீர்களா?"
+
+#: ../app/qml/pages/SettingsPage.qml:191
+msgid ""
+"Warning: Deleting the account will delete all the data you ever received or "
+"sent using telegram except for data you have explicitly saved outside the "
+"telegram cloud. Are you really really sure you want to delete your telegram "
+"account?"
+msgstr ""
+"எச்சரிக்கை: கணக்கை நீக்குவது டெலிகிராம் கிளவுட்டுக்கு வெளியே நீங்கள் வெளிப்படையாக சேமித்த "
+"தரவுகளைத் தவிர்த்து, நீங்கள் பெற்ற அல்லது டெலிகிராம் பயன்படுத்தி அனுப்பிய எல்லா தரவையும் "
+"நீக்கிவிடும். உங்கள் தந்தி கணக்கை நீக்க விரும்புகிறீர்களா?"
+
+#: ../app/qml/pages/UserListPage.qml:38
+msgid "Add Contact"
+msgstr "தொடர்பைச் சேர்க்கவும்"
+
+#: ../app/qml/pages/UserListPage.qml:43
+msgid "Import Contact"
+msgstr "தொடர்பு இறக்குமதி"
+
+#: ../app/qml/pages/UserListPage.qml:55
+msgid "The contact will be added. First and last name are optional"
+msgstr "தொடர்பு சேர்க்கப்படும். முதல் மற்றும் கடைசி பெயர் விருப்பமானது"
+
+#: ../app/qml/pages/UserListPage.qml:57
+msgid "Add"
+msgstr "கூட்டு"
+
+#: ../app/qml/pages/UserListPage.qml:67
+msgid "Phone no"
+msgstr "தொலைபேசி எண்"
+
+#: ../app/qml/pages/UserListPage.qml:136
+msgid "Secret Chat"
+msgstr "ரகசிய அரட்டை"
+
+#: ../app/qml/pages/UserListPage.qml:213
+msgid "The contact will be deleted. Are you sure?"
+msgstr "தொடர்பு நீக்கப்படும். நீங்கள் உறுதியாக இருக்கிறீர்களா?"
+
+#: ../app/qml/pages/WaitCodePage.qml:20
+msgid "Enter Code"
+msgstr "குறியீட்டை உள்ளிடவும்"
+
+#: ../app/qml/pages/WaitCodePage.qml:41
+msgid "A code was sent via Telegram to your other devices."
+msgstr ""
+"உங்கள் மற்ற சாதனங்களுக்கு டெலிகிராம் வழியாக ஒரு குறியீடு அனுப்பப்பட்டது."
+
+#: ../app/qml/pages/WaitCodePage.qml:47
+msgid "A code was sent via text message to your phone."
+msgstr "உங்கள் தொலைபேசியில் உரை செய்தி வழியாக ஒரு குறியீடு அனுப்பப்பட்டது."
+
+#: ../app/qml/pages/WaitCodePage.qml:53
+msgid "Please enter it here:"
+msgstr "தயவுசெய்து இங்கே உள்ளிடவும்:"
+
+#: ../app/qml/pages/WaitCodePage.qml:59
+msgid "Code"
+msgstr "குறியீடு"
+
+#: ../app/qml/pages/WaitCodePage.qml:73
+msgid ""
+"If you do not receive any code after %1 seconds press retry to receive the "
+"code via an alternate method"
+msgstr ""
+"%1 விநாடிகளுக்குப் பிறகு நீங்கள் எந்த குறியீட்டையும் பெறவில்லை என்றால், மாற்று முறை வழியா"
+"க குறியீட்டைப் பெற மீண்டும் முயற்சிக்கவும்"
+
+#: ../app/qml/pages/WaitCodePage.qml:78
+msgid "Resend code..."
+msgstr "குறியீடு மீண்டும் ..."
+
+#: ../app/qml/pages/WaitCodePage.qml:88
+msgid ""
+"Note: If this is your first signup to Telegram you must register your "
+"account via an official mobile App (Android or iOS) first."
+msgstr ""
+"குறிப்பு: இது டெலிகிராமிற்கான உங்கள் முதல் கையொப்பம் என்றால், முதலில் உங்கள் கணக்கை "
+"அதிகாரப்பூர்வ மொபைல் பயன்பாடு (Android அல்லது iOS) வழியாக முதலில் பதிவு செய்ய "
+"வேண்டும்."
+
+#: ../app/qml/pages/WaitPasswordPage.qml:18
+msgid "Enter Password"
+msgstr "கடவுச்சொல்லை உள்ளிடவும்"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:39
+msgid "Password"
+msgstr "கடவுச்சொல்"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:57
+msgid "Password hint: %1"
+msgstr "கடவுச்சொல் குறிப்பு: %1"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:62
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:98
+#: ../app/qml/pages/WaitRegistrationPage.qml:57
+msgid "Next..."
+msgstr "அடுத்து ..."
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:17
+msgid "Enter Phone Number"
+msgstr "தொலைபேசி எண்ணை உள்ளிடவும்"
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:54
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:64
+msgid "Phone number"
+msgstr "தொலைபேசி எண்"
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:88
+msgid "Please confirm your country code and enter your phone number."
+msgstr ""
+"தயவுசெய்து உங்கள் நாட்டின் குறியீட்டை உறுதிசெய்து உங்கள் தொலைபேசி எண்ணை உள்ளிடவும்."
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:92
+msgid "Manage Proxy Servers..."
+msgstr "பதிலாள் சேவையகங்களை நிர்வகிக்கவும் ..."
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:17
+msgid "Enter your Name"
+msgstr "உங்கள் பெயரை உள்ளிடவும்"
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:38
+msgid "First Name"
+msgstr "முதல் பெயர்"
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:44
+msgid "Last Name"
+msgstr "கடைசி பெயர்"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:27
+msgid "Edit proxy server"
+msgstr "பதிலாள் சேவையகத்தைத் திருத்தவும்"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:82
+msgid "Server:"
+msgstr "சேவையகம்:"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:88
+msgid "Port:"
+msgstr "போர்ட்:"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:93
+msgid "Type:"
+msgstr "தட்டச்சு:"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:99
+msgid "Username:"
+msgstr "பயனர்பெயர்:"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:105
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:171
+msgid "Password:"
+msgstr "கடவுச்சொல்:"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:111
+msgid "Secret:"
+msgstr "ரகசியம்:"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:117
+msgid "HTTP only:"
+msgstr "Http மட்டும்:"
+
+#: ../app/qml/stores/AuthStateStore.qml:53
+msgid ""
+"Unsupported code verification was requested by the server. Please register "
+"your account via an official mobile App (Android or iOS) first and try again."
+msgstr ""
+"ஆதரிக்கப்படாத குறியீடு சரிபார்ப்பு சேவையகத்தால் கோரப்பட்டது. முதலில் உங்கள் கணக்கை "
+"அதிகாரப்பூர்வ மொபைல் பயன்பாடு (Android அல்லது iOS) வழியாக பதிவு செய்து மீண்டும் "
+"முயற்சிக்கவும்."
+
+#: ../app/qml/stores/AuthStateStore.qml:66
+msgid "Invalid phone number!"
+msgstr "தவறான தொலைபேசி எண்!"
+
+#: ../app/qml/stores/AuthStateStore.qml:73
+msgid "Invalid code!"
+msgstr "தவறான குறியீடு!"
+
+#: ../app/qml/stores/AuthStateStore.qml:80
+msgid "Invalid password!"
+msgstr "தவறான கடவுச்சொல்!"
+
+#: ../app/qml/stores/AuthStateStore.qml:100
+msgid "Auth code not expected right now"
+msgstr "அங்கீகார குறியீடு இப்போது எதிர்பார்க்கப்படவில்லை"
+
+#: ../app/qml/stores/AuthStateStore.qml:106
+msgid "Oops! Internal error."
+msgstr "அச்சச்சோ! உள் பிழை."
+
+#: ../app/qml/stores/AuthStateStore.qml:132
+msgid "Registration not expected right now"
+msgstr "பதிவு இப்போது எதிர்பார்க்கப்படவில்லை"
+
+#: ../app/qml/stores/ChatStateStore.qml:44
+#: ../app/qml/stores/ChatStateStore.qml:50
+#: ../app/qml/stores/SettingsStore.qml:28
+msgid "Error"
+msgstr "பிழை"
+
+#: ../app/qml/stores/ChatStateStore.qml:44
+msgid "No valid location received after 180 seconds!"
+msgstr "180 வினாடிகளுக்குப் பிறகு செல்லுபடியாகும் இடம் எதுவும் பெறப்படவில்லை!"
+
+#: ../app/qml/stores/ChatStateStore.qml:50
+msgid "Username <b>@%1</b> not found"
+msgstr "பயனர்பெயர் <b>@%1 </b> கிடைக்கவில்லை"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:12
+msgid "Push Registration Failed"
+msgstr "புச் பதிவு தோல்வியடைந்தது"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:23
+msgid "No Ubuntu One"
+msgstr "உபுண்டு ஒன்று இல்லை"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:24
+msgid "Please connect to Ubuntu One to receive push notifications."
+msgstr "புச் அறிவிப்புகளைப் பெற உபுண்டு ஒன் உடன் இணைக்கவும்."
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:86 ../libs/qtdlib/user/qtduser.cpp:208
+msgid "Deleted User"
+msgstr "நீக்கப்பட்ட பயனர்"
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:349
+msgid "Draft:"
+msgstr "வரைவு:"
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:360
+msgid "Me"
+msgstr "நான்"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:7
+msgid "Doing something..."
+msgstr "ஏதாவது செய்வது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:8
+msgid "is doing something..."
+msgstr "ஏதாவது செய்கிறார் ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:9
+msgid "are doing something..."
+msgstr "ஏதாவது செய்கிறார்கள் ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:37
+msgid "Choosing a contact..."
+msgstr "ஒரு தொடர்பைத் தேர்ந்தெடுப்பது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:38
+msgid "is choosing a contact..."
+msgstr "ஒரு தொடர்பைத் தேர்ந்தெடுப்பது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:39
+msgid "are choosing a contact..."
+msgstr "ஒரு தொடர்பைத் தேர்வுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:46
+msgid "Recording a video..."
+msgstr "வீடியோவைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:47
+msgid "is recording a video..."
+msgstr "ஒரு வீடியோவைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:48
+msgid "are recording a video..."
+msgstr "ஒரு வீடியோவைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:55
+msgid "Choosing a location..."
+msgstr "ஒரு இடத்தைத் தேர்ந்தெடுப்பது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:56
+msgid "is choosing a location..."
+msgstr "ஒரு இடத்தைத் தேர்ந்தெடுப்பது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:57
+msgid "are choosing a location..."
+msgstr "ஒரு இடத்தைத் தேர்வுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:64
+msgid "Recording a video note..."
+msgstr "வீடியோ குறிப்பைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:65
+msgid "is recording a video note..."
+msgstr "வீடியோ குறிப்பைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:66
+msgid "are recording a video note..."
+msgstr "வீடியோ குறிப்பைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:73
+msgid "Recording a voice note..."
+msgstr "குரல் குறிப்பைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:74
+msgid "is recording a voice note..."
+msgstr "குரல் குறிப்பைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:75
+msgid "are recording a voice note..."
+msgstr "குரல் குறிப்பைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:82
+msgid "Starting a game..."
+msgstr "ஒரு விளையாட்டைத் தொடங்குகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:83
+msgid "is starting a game..."
+msgstr "ஒரு விளையாட்டைத் தொடங்குகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:84
+msgid "are starting a game..."
+msgstr "ஒரு விளையாட்டைத் தொடங்குகிறோம் ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:91
+msgid "Typing..."
+msgstr "தட்டச்சு ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:92
+msgid "is typing..."
+msgstr "தட்டச்சு செய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:93
+msgid "are typing..."
+msgstr "தட்டச்சு செய்க ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:100
+msgid "Uploading a document..."
+msgstr "ஒரு ஆவணத்தை பதிவேற்றுவது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:101
+msgid "is uploading a document..."
+msgstr "ஒரு ஆவணத்தை பதிவேற்றுகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:102
+msgid "are uploading a document..."
+msgstr "ஒரு ஆவணத்தை பதிவேற்றுகிறார்கள் ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:109
+msgid "Uploading a photo..."
+msgstr "புகைப்படத்தைப் பதிவேற்றுவது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:110
+msgid "is uploading a photo..."
+msgstr "ஒரு புகைப்படத்தை பதிவேற்றுகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:111
+msgid "are uploading a photo..."
+msgstr "ஒரு புகைப்படத்தை பதிவேற்றுகிறார்கள் ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:118
+msgid "Uploading a video..."
+msgstr "வீடியோவைப் பதிவேற்றுவது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:119
+msgid "is uploading a video..."
+msgstr "வீடியோவைப் பதிவேற்றுகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:120
+msgid "are uploading a video..."
+msgstr "வீடியோவைப் பதிவேற்றுகிறார்கள் ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:127
+msgid "Uploading a video note..."
+msgstr "வீடியோ குறிப்பைப் பதிவேற்றுவது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:128
+msgid "is uploading a video note..."
+msgstr "வீடியோ குறிப்பைப் பதிவேற்றுகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:129
+msgid "are uploading a video note..."
+msgstr "வீடியோ குறிப்பைப் பதிவேற்றுகிறார்கள் ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:136
+msgid "Uploading a voice note..."
+msgstr "குரல் குறிப்பைப் பதிவேற்றுவது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:137
+msgid "is uploading a voice note..."
+msgstr "குரல் குறிப்பைப் பதிவேற்றுகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:138
+msgid "are uploading a voice note..."
+msgstr "குரல் குறிப்பைப் பதிவேற்றுகிறார்கள் ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:145
+msgid "Choosing a sticker..."
+msgstr "ஒரு ச்டிக்கரைத் தேர்ந்தெடுப்பது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:146
+msgid "is choosing a sticker..."
+msgstr "ஒரு ச்டிக்கரைத் தேர்ந்தெடுப்பது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:147
+msgid "are choosing a sticker..."
+msgstr "ஒரு ச்டிக்கரைத் தேர்வுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:154
+msgid "Recording audio..."
+msgstr "ஆடியோவைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:155
+msgid "is recording audio..."
+msgstr "ஆடியோவைப் பதிவுசெய்கிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:156
+msgid "are recording audio..."
+msgstr "ஆடியோவைப் பதிவுசெய்கின்றன ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:163
+msgid "Uploading audio..."
+msgstr "ஆடியோவைப் பதிவேற்றுகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:164
+msgid "is uploading audio..."
+msgstr "ஆடியோவைப் பதிவேற்றுகிறது ..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:165
+msgid "are uploading audio..."
+msgstr "ஆடியோவைப் பதிவேற்றுகின்றன ..."
+
+#: ../libs/qtdlib/chat/qtdchatlistmodel.cpp:443
+msgid "Maximum number of pinned chat exceeded"
+msgstr "பின் செய்யப்பட்ட அரட்டையின் அதிகபட்ச எண்ணிக்கை"
+
+#: ../libs/qtdlib/messages/content/qtdmessageanimation.cpp:27
+msgid "GIF"
+msgstr "Gif"
+
+#: ../libs/qtdlib/messages/content/qtdmessageanimation.cpp:27
+msgid "GIF,"
+msgstr "Gif,"
+
+#: ../libs/qtdlib/messages/content/qtdmessagebasicgroupchatcreate.cpp:24
+#: ../libs/qtdlib/messages/content/qtdmessagesupergroupchatcreate.cpp:23
+msgid "created this group"
+msgstr "இந்த குழுவை உருவாக்கியது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:68
+msgid "Call Declined"
+msgstr "அழைப்பு மறுக்கப்பட்டது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:71
+msgid "Call Disconnected"
+msgstr "அழைப்பு துண்டிக்கப்பட்டது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:74
+msgid "Call Ended"
+msgstr "அழைப்பு முடிந்தது"
+
+#. TRANSLATORS: This is a duration in hours:minutes:seconds format - only arrange the order, do not translate!
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:78
+msgid "%1:%2:%3"
+msgstr "%1:%2:%3"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:79
+msgid "Outgoing Call (%1)"
+msgstr "வெளிச்செல்லும் அழைப்பு (%1)"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:80
+msgid "Incoming Call (%1)"
+msgstr "உள்வரும் அழைப்பு (%1)"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:83
+msgid "Cancelled Call"
+msgstr "ரத்து செய்யப்பட்ட அழைப்பு"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:83
+msgid "Missed Call"
+msgstr "தவறவிட்ட அழைப்பு"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:86
+msgid "Call"
+msgstr "அழைப்பு"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechataddmembers.cpp:34
+msgid "added one or more members"
+msgstr "ஒன்று அல்லது அதற்கு மேற்பட்ட உறுப்பினர்களைச் சேர்த்தது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechataddmembers.cpp:34
+msgid "joined the group"
+msgstr "குழுவில் சேர்ந்தார்"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatchangephoto.cpp:21
+msgid "changed the chat photo"
+msgstr "அரட்டை புகைப்படத்தை மாற்றியது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatchangetitle.cpp:19
+msgid "changed the chat title"
+msgstr "அரட்டை தலைப்பை மாற்றியது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletemember.cpp:32
+msgid "left the group"
+msgstr "குழுவை விட்டு வெளியேறினார்"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletemember.cpp:32
+msgid "removed a member"
+msgstr "ஒரு உறுப்பினரை நீக்கியது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletephoto.cpp:8
+msgid "deleted the chat photo"
+msgstr "அரட்டை புகைப்படத்தை நீக்கியது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatjoinbylink.cpp:8
+msgid "joined the group via the public link"
+msgstr "பொது இணைப்பு வழியாக குழுவில் சேர்ந்தார்"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatsetmessageautodeletetime.cpp:67
+msgid "Self-destruct timer was set"
+msgstr "சுய-அழிவு நேரங்குறிகருவி அமைக்கப்பட்டது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatupgradefrom.cpp:30
+#: ../libs/qtdlib/messages/content/qtdmessagechatupgradeto.cpp:30
+msgid "upgraded to supergroup"
+msgstr "சூப்பர் குழுவாக மேம்படுத்தப்பட்டது"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecontact.cpp:19
+msgid "Contact"
+msgstr "தொடர்பு"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecontactregistered.cpp:9
+msgid "has joined Telegram!"
+msgstr "டெலிகிராமில் சேர்ந்துள்ளார்!"
+
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:19
+msgid "Today"
+msgstr "இன்று"
+
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:21
+msgid "Yesterday"
+msgstr "நேற்று"
+
+#. TRANSLATORS: String in date separator label. For messages within a week: full weekday name
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:24
+msgid "dddd"
+msgstr "டி.டி.டி."
+
+#. TRANSLATORS: String in date separator label. For messages of pas years: date number, month name and year
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:27
+msgid "dd MMMM yyyy"
+msgstr "dd mmmm yyyy"
+
+#. TRANSLATORS: String in date separator label. For messages older that a week but within the current year: date number and month name
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:30
+msgid "dd MMMM"
+msgstr "டி.டி எம்.எம்.எம்"
+
+#: ../libs/qtdlib/messages/content/qtdmessagelocation.cpp:20
+msgid "Location"
+msgstr "இடம்"
+
+#: ../libs/qtdlib/messages/content/qtdmessagephoto.cpp:28
+msgid "Photo"
+msgstr "புகைப்படம்"
+
+#: ../libs/qtdlib/messages/content/qtdmessagephoto.cpp:28
+msgid "Photo,"
+msgstr "புகைப்படம்,"
+
+#: ../libs/qtdlib/messages/content/qtdmessagepinmessage.cpp:20
+msgid "Pinned Message"
+msgstr "பின் செய்யப்பட்ட செய்தி"
+
+#: ../libs/qtdlib/messages/content/qtdmessagesticker.cpp:33
+msgid "Sticker"
+msgstr "ச்டிக்கர்"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideo.cpp:27
+msgid "Video"
+msgstr "ஒளிதோற்றம்"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideo.cpp:27
+msgid "Video,"
+msgstr "வீடியோ,"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideonote.cpp:27
+msgid "Video message"
+msgstr "வீடியோ செய்தி"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevoicenote.cpp:32
+msgid "Voice message"
+msgstr "குரல் செய்தி"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevoicenote.cpp:32
+msgid "Voice message,"
+msgstr "குரல் செய்தி,"
+
+#: ../libs/qtdlib/messages/forwardinfo/qtdmessageforwardinfo.cpp:61
+msgid "Unknown origin"
+msgstr "தெரியாத தோற்றம்"
+
+#: ../libs/qtdlib/messages/qtdmessagecontentfactory.cpp:134
+msgid "Unimplemented:"
+msgstr "வெற்றிபெறாதது:"
+
+#: ../libs/qtdlib/messages/qtdmessagelistmodel.cpp:260
+msgid "Unread Messages"
+msgstr "படிக்காத செய்திகள்"
+
+#: ../libs/qtdlib/user/qtduser.cpp:251
+msgid "Bot"
+msgstr "போட்"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:28
+msgid "Last seen one month ago"
+msgstr "கடைசியாக ஒரு மாதத்திற்கு முன்பு பார்த்தேன்"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:39
+msgid "Last seen one week ago"
+msgstr "கடைசியாக ஒரு வாரத்திற்கு முன்பு பார்த்தேன்"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:55
+msgid "Last seen "
+msgstr "கடைசியாக பார்த்தேன் "
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:55
+msgid "dd.MM.yy hh:mm"
+msgstr "dd.mm.yy hh: mm"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:96
+msgid "Seen recently"
+msgstr "அண்மைக் காலத்தில் பார்த்தேன்"
+
+#: ../push/pushhelper.cpp:124
+msgid "sent you a message"
+msgstr "உங்களுக்கு ஒரு செய்தி அனுப்பியது"
+
+#: ../push/pushhelper.cpp:128
+msgid "sent you a photo"
+msgstr "உங்களுக்கு ஒரு புகைப்படம் அனுப்பியது"
+
+#: ../push/pushhelper.cpp:132
+msgid "sent you a sticker"
+msgstr "உங்களுக்கு ஒரு ச்டிக்கர் அனுப்பியது"
+
+#: ../push/pushhelper.cpp:136
+msgid "sent you a video"
+msgstr "உங்களுக்கு ஒரு வீடியோ அனுப்பப்பட்டது"
+
+#: ../push/pushhelper.cpp:140
+msgid "sent you a document"
+msgstr "உங்களுக்கு ஒரு ஆவணத்தை அனுப்பியது"
+
+#: ../push/pushhelper.cpp:144
+msgid "sent you an audio message"
+msgstr "ஆடியோ செய்தியை உங்களுக்கு அனுப்பியது"
+
+#: ../push/pushhelper.cpp:148
+msgid "sent you a voice message"
+msgstr "உங்களுக்கு ஒரு குரல் செய்தி அனுப்பியது"
+
+#: ../push/pushhelper.cpp:152
+msgid "shared a contact with you"
+msgstr "உங்களுடன் ஒரு தொடர்பைப் பகிர்ந்து கொண்டார்"
+
+#: ../push/pushhelper.cpp:156
+msgid "sent you a map"
+msgstr "உங்களுக்கு ஒரு வரைபடம் அனுப்பியது"
+
+#: ../push/pushhelper.cpp:161
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: ../push/pushhelper.cpp:166
+msgid "%1 sent a message to the group"
+msgstr "%1 குழுவிற்கு ஒரு செய்தியை அனுப்பியது"
+
+#: ../push/pushhelper.cpp:171
+msgid "%1 sent a photo to the group"
+msgstr "%1 குழுவிற்கு ஒரு புகைப்படத்தை அனுப்பியது"
+
+#: ../push/pushhelper.cpp:176
+msgid "%1 sent a sticker to the group"
+msgstr "%1 குழுவிற்கு ஒரு ச்டிக்கரை அனுப்பியது"
+
+#: ../push/pushhelper.cpp:181
+msgid "%1 sent a video to the group"
+msgstr "%1 ஒரு வீடியோவை குழுவிற்கு அனுப்பியது"
+
+#: ../push/pushhelper.cpp:186
+msgid "%1 sent a document to the group"
+msgstr "%1 ஒரு ஆவணத்தை குழுவிற்கு அனுப்பியது"
+
+#: ../push/pushhelper.cpp:191
+msgid "%1 sent a voice message to the group"
+msgstr "%1 குழுவிற்கு ஒரு குரல் செய்தியை அனுப்பியது"
+
+#: ../push/pushhelper.cpp:196
+msgid "%1 sent a GIF to the group"
+msgstr "%1 குழுவிற்கு ஒரு GIF ஐ அனுப்பியது"
+
+#: ../push/pushhelper.cpp:201
+msgid "%1 sent a contact to the group"
+msgstr "%1 குழுவிற்கு ஒரு தொடர்பை அனுப்பியது"
+
+#: ../push/pushhelper.cpp:206
+msgid "%1 sent a map to the group"
+msgstr "%1 குழுவிற்கு ஒரு வரைபடத்தை அனுப்பியது"
+
+#: ../push/pushhelper.cpp:211 ../push/pushhelper.cpp:232
+msgid "%1 invited you to the group"
+msgstr "%1 உங்களை குழுவிற்கு அழைத்தது"
+
+#: ../push/pushhelper.cpp:216
+msgid "%1 changed group name"
+msgstr "%1 குழு பெயரை மாற்றியது"
+
+#: ../push/pushhelper.cpp:221
+msgid "%1 changed group photo"
+msgstr "%1 குழு புகைப்படத்தை மாற்றியது"
+
+#. TRANSLATORS: Notification message saying: person A invited person B (to a group)
+#: ../push/pushhelper.cpp:227
+msgid "%1 invited %2"
+msgstr "%1 அழைக்கப்பட்ட %2"
+
+#: ../push/pushhelper.cpp:243
+msgid "%1 removed you from the group"
+msgstr "%1 உங்களை குழுவிலிருந்து நீக்கியது"
+
+#: ../push/pushhelper.cpp:248
+msgid "%1 has left the group"
+msgstr "%1 குழுவை விட்டு வெளியேறிவிட்டது"
+
+#: ../push/pushhelper.cpp:253
+msgid "%1 has returned to the group"
+msgstr "%1 குழுவிற்கு திரும்பியுள்ளது"
+
+#. TRANSLATORS: This format string tells location, like: @ McDonals, New York
+#: ../push/pushhelper.cpp:258
+msgid "@ %1"
+msgstr "1 %1"
+
+#. TRANSLATORS: This format string tells who has checked in (in a geographical location).
+#: ../push/pushhelper.cpp:260
+msgid "%1 has checked-in"
+msgstr "%1 சோதனை செய்துள்ளது"
+
+#. TRANSLATORS: This format string tells who has just joined Telegram.
+#: ../push/pushhelper.cpp:266
+msgid "%1 joined Telegram!"
+msgstr "%1 தந்தி சேர்ந்தது!"
+
+#: ../push/pushhelper.cpp:271 ../push/pushhelper.cpp:277
+msgid "New login from unrecognized device"
+msgstr "அங்கீகரிக்கப்படாத சாதனத்திலிருந்து புதிய உள்நுழைவு"
+
+#. TRANSLATORS: This format string indicates new login of: (device name) at (location).
+#: ../push/pushhelper.cpp:276
+msgid "%1 @ %2"
+msgstr "%1 @ %2"
+
+#: ../push/pushhelper.cpp:281
+msgid "updated profile photo"
+msgstr "புதுப்பிக்கப்பட்ட சுயவிவர புகைப்படம்"
+
+#: ../push/pushhelper.cpp:286 ../push/pushhelper.cpp:291
+#: ../push/pushhelper.cpp:296
+msgid "You have a new message"
+msgstr "உங்களிடம் ஒரு புதிய செய்தி உள்ளது"

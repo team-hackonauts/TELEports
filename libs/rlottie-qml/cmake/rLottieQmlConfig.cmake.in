@@ -1,0 +1,9 @@
+get_filename_component(rLottieQml_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+include(CMakeFindDependencyMacro)
+
+# find_dependency(rlottie REQUIRED)
+# find_dependency(QuaZip REQUIRED)
+
+if(NOT TARGET rLottieQml::rLottieQml)
+    include("${rLottieQml_CMAKE_DIR}/rLottieQmlExport.cmake")
+endif()

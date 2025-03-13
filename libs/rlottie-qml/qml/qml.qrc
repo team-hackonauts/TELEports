@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/rLottieQml">
+        <file>LottieAnimation.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/qml/icons">
+        <file>attach_audio.png</file>
+        <file>attach_contact.png</file>
+        <file>attach_document.png</file>
+        <file>attach_gallery.png</file>
+        <file>attach_hide1.png</file>
+        <file>attach_hide2.png</file>
+        <file>attach_video.png</file>
+        <file>attach.png</file>
+        <file>attach.svg</file>
+        <file>broadcast.svg</file>
+        <file>bookmark.svg</file>
+        <file>clock_green.svg</file>
+        <file>clock_white.svg</file>
+        <file>clock.svg</file>
+        <file>download.svg</file>
+        <file>eye.svg</file>
+        <file>eyeWhite.svg</file>
+        <file>play.svg</file>
+        <file>send.png</file>
+        <file>bot.svg</file>
+        <file>send_disabled.png</file>
+        <file>msg_panel_stickers.svg</file>
+        <file>status/clock-white.svg</file>
+        <file>status/check-single-white.svg</file>
+        <file>status/check-double-white.svg</file>
+    </qresource>
+</RCC>

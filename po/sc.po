@@ -1,0 +1,1721 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the teleports.ubports package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: teleports.ubports\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 04:14+0000\n"
+"PO-Revision-Date: 2021-11-21 15:09+0000\n"
+"Last-Translator: Adria <adriamartinmor@gmail.com>\n"
+"Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
+"teleports/sc/>\n"
+"Language: sc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
+
+#: ../app/qml/actions/BackAction.qml:10
+msgid "Back"
+msgstr "In segus"
+
+#: ../app/qml/components/CountryPicker.qml:21
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:36
+msgid "Choose a country"
+msgstr "Sèbera unu paisu"
+
+#: ../app/qml/components/CountryPicker.qml:38
+msgid "Search country name..."
+msgstr "Chirca nòmine de su paisu..."
+
+#: ../app/qml/components/DeleteDialog.qml:11
+#, fuzzy
+#| msgid "Send message"
+msgid "Delete Message"
+msgstr "Imbia su messàgiu"
+
+#: ../app/qml/components/DeleteDialog.qml:13
+#, fuzzy
+#| msgid "Are you sure you want to clear the history?"
+msgid "Do you really want to delete it?"
+msgstr "Seguru chi boles isboidare sa cronologia?"
+
+#: ../app/qml/components/DeleteDialog.qml:13
+msgid ""
+"The message will be deleted for all users in the chat. Do you really want to "
+"delete it?"
+msgstr ""
+"Custu messàgiu at a èssere cantzelladu pro totu is usuàrios de custa "
+"tzarrada. Seguru chi ddu boles cantzellare?"
+
+#: ../app/qml/components/DeleteDialog.qml:14
+msgid ""
+"The message will be deleted only for you. Do you really want to delete it?"
+msgstr ""
+"Custu messàgiu at a èssere cantzelladu isceti pro tie. Seguru chi ddu boles "
+"cantzellare?"
+
+#: ../app/qml/components/DeleteDialog.qml:16
+#: ../app/qml/delegates/MessageBubbleItem.qml:37
+#: ../app/qml/middleware/SettingsMiddleware.qml:28
+#: ../app/qml/pages/ProxyManagementPage.qml:78
+#: ../app/qml/pages/SettingsPage.qml:193 ../app/qml/pages/UserListPage.qml:121
+#: ../app/qml/pages/UserListPage.qml:215
+msgid "Delete"
+msgstr "Cantzella"
+
+#: ../app/qml/components/DeleteDialog.qml:29
+#: ../app/qml/middleware/ChatMiddleware.qml:109
+msgid "Delete for all users"
+msgstr ""
+
+#: ../app/qml/components/GroupPreviewDialog.qml:35
+#: ../app/qml/pages/MessageListPage.qml:37
+msgid "%1 member"
+msgid_plural "%1 members"
+msgstr[0] "%1 membru"
+msgstr[1] "%1 membros"
+
+#: ../app/qml/components/GroupPreviewDialog.qml:37
+msgid "%1 members, among them:"
+msgstr "%1 persones, intre issas:"
+
+#: ../app/qml/components/InputInfoBox.qml:91
+msgid "Edit message"
+msgstr "Modifica su messàgiu"
+
+#: ../app/qml/components/MessageStatusRow.qml:36
+msgid "Edited"
+msgstr "Modificadu"
+
+#: ../app/qml/components/PopupDialog.qml:14
+msgid "Okay"
+msgstr "AB"
+
+#: ../app/qml/components/PopupDialog.qml:15
+#: ../app/qml/components/PopupWaitCancel.qml:13
+#: ../app/qml/pages/ChatListPage.qml:34
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ../app/qml/components/SendMediaDialog.qml:19
+msgid "Would you like to send text?"
+msgstr ""
+
+#: ../app/qml/components/SendMediaDialog.qml:20
+msgid "Would you like to send file?"
+msgid_plural "Would you like to send files?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/qml/components/SendMediaDialog.qml:22
+#: ../app/qml/components/SendMessageOptionsDialog.qml:21
+#: ../app/qml/pages/ChatListPage.qml:529
+#: ../app/qml/pages/MessageListPage.qml:879
+msgid "Send"
+msgstr "Imbia"
+
+#: ../app/qml/components/SendMediaDialog.qml:91
+#, fuzzy
+#| msgid "Send message"
+msgid "Send uncompressed"
+msgstr "Imbia su messàgiu"
+
+#: ../app/qml/components/SendMediaDialog.qml:119
+msgid "Send as album"
+msgstr ""
+
+#: ../app/qml/components/SendMediaDialog.qml:155
+#: ../app/qml/pages/ChatListPage.qml:519 ../app/qml/pages/ChatListPage.qml:543
+msgid "Enter optional message..."
+msgstr "Iscrie unu messàgiu optzionale..."
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:20
+#, fuzzy
+#| msgid "Saved Messages"
+msgid "Send Message options"
+msgstr "Messàgios sarvados"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:29
+#, fuzzy
+#| msgid "Notifications"
+msgid "Send push notification"
+msgstr "Notìficas"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:36
+#, fuzzy
+#| msgid "Send message"
+msgid "Schedule message:"
+msgstr "Imbia su messàgiu"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:55
+#, fuzzy
+#| msgid "Send message"
+msgid "Send immediately"
+msgstr "Imbia su messàgiu"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:68
+msgid "Wait until specified date and time"
+msgstr ""
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:82
+msgid "Wait until the receiver goes online"
+msgstr ""
+
+#: ../app/qml/components/SetTTLDialog.qml:17
+msgid "Self-destruct timer for messages in this chat:"
+msgstr ""
+
+#: ../app/qml/components/SetTTLDialog.qml:67
+#: ../app/qml/components/SetTTLDialog.qml:71
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:22
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/qml/components/SetTTLDialog.qml:75
+msgid "1 minute"
+msgstr ""
+
+#: ../app/qml/components/SetTTLDialog.qml:79
+msgid "1 hour"
+msgstr ""
+
+#: ../app/qml/components/SetTTLDialog.qml:83
+msgid "1 day"
+msgstr ""
+
+#: ../app/qml/components/SetTTLDialog.qml:87
+msgid "1 week"
+msgstr ""
+
+#: ../app/qml/components/SetTTLDialog.qml:91
+#, fuzzy
+#| msgid "Offline"
+msgid "Off"
+msgstr "Foras de lìnia"
+
+#: ../app/qml/components/UserProfile.qml:74
+msgid "Members: %1"
+msgstr "Membros: %1"
+
+#: ../app/qml/delegates/MessageBasicGroupChatCreate.qml:6
+msgid "Channel called <b>%1</b> created"
+msgstr "Canale <b>%1</b> creadu"
+
+#: ../app/qml/delegates/MessageBasicGroupChatCreate.qml:7
+msgid "%1 created a group called <b>%2</b>"
+msgstr "%1 at creadu su grupu <b>%2</b>"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:49
+msgid "Copy"
+msgstr "Còpia"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:59
+#: ../app/qml/pages/ChatInfoPage.qml:34
+#: ../app/qml/pages/ProxyManagementPage.qml:87
+msgid "Edit"
+msgstr "Modìfica"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:67
+msgid "Reply"
+msgstr "Risponde"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:73
+msgid "Sticker Pack info"
+msgstr "Informatzione de su pachete de adesivos"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:80
+#, fuzzy
+#| msgid "Copy"
+msgid "Copy link"
+msgstr "Còpia"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:88
+#: ../app/qml/pages/ChatListPage.qml:506
+msgid "Forward"
+msgstr "Torra a imbiare"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:8
+msgid "%1 joined the group"
+msgstr "%1 at aderidu a su grupu"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:9
+msgid "%1 added %2"
+msgstr "%1 at agiuntu a %2"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:10
+msgid "Unknown joined group"
+msgstr "Una persone at aderidu a su grupu"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:32
+msgid "%1 user(s)"
+msgid_plural ""
+msgstr[0] "%1 usuàriu(/-os)"
+msgstr[1] ""
+
+#: ../app/qml/delegates/MessageChatChangePhoto.qml:32
+msgid "Channel photo has been changed:"
+msgstr "Fotografia de su canale modificada:"
+
+#: ../app/qml/delegates/MessageChatChangePhoto.qml:33
+msgid "%1 changed the chat photo:"
+msgstr "%1 at mudadu sa fotografia de sa tzarrada:"
+
+#: ../app/qml/delegates/MessageChatChangeTitle.qml:6
+msgid "Channel title has been changed to <b>%1</b>"
+msgstr "Tìtulu de su canale modificadu: <b>%1</b>"
+
+#: ../app/qml/delegates/MessageChatChangeTitle.qml:7
+msgid "%1 changed the chat title to <b>%2</b>"
+msgstr "%1 at mudadu su tìtulu de sa tzarrada: <b>%2</b>"
+
+#: ../app/qml/delegates/MessageChatDeleteMember.qml:6
+msgid "%1 left the group"
+msgstr "%1 at lassadu su grupu"
+
+#. TRANSLATORS: Notification message saying: person A removed person B (from a group)
+#: ../app/qml/delegates/MessageChatDeleteMember.qml:7
+#: ../push/pushhelper.cpp:238
+msgid "%1 removed %2"
+msgstr "%1 nch'at bogadu %2"
+
+#: ../app/qml/delegates/MessageChatDeletePhoto.qml:6
+msgid "Channel photo has been removed"
+msgstr "Fotografia de su canale cantzellada"
+
+#: ../app/qml/delegates/MessageChatDeletePhoto.qml:7
+msgid "%1 deleted the chat photo"
+msgstr "%1 at cantzelladu sa foto de sa tzarrada"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:14
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:17
+msgid "%1 month"
+msgid_plural "%1 months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:20
+msgid "%1 year"
+msgid_plural "%1 years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:25
+msgid "Auto-delete timer was set to <b>%1</b>"
+msgstr ""
+
+#: ../app/qml/delegates/MessageChatUpgradeFrom.qml:4
+#: ../app/qml/delegates/MessageChatUpgradeTo.qml:4
+msgid "Group has been upgraded to Supergroup"
+msgstr "Grupu atualizadu a supergrupu"
+
+#: ../app/qml/delegates/MessageContactRegistered.qml:5
+msgid "%1 has joined Telegram!"
+msgstr "%1 at aderidu a Telegram!"
+
+#: ../app/qml/delegates/MessageContentBase.qml:41
+msgid "Forwarded from %1"
+msgstr "Torradu a imbiare dae %1"
+
+#. TRANSLATORS: This is the duration of a phone call in hours:minutes:seconds format
+#: ../app/qml/delegates/MessageContentCall.qml:62
+msgid "Duration: %1:%2:%3"
+msgstr "Durada: %1.%2:%3"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:51
+msgid "Final result"
+msgstr ""
+
+#: ../app/qml/delegates/MessageContentPoll.qml:53
+msgid "Anonymous Poll"
+msgstr ""
+
+#: ../app/qml/delegates/MessageContentPoll.qml:155
+msgid "Reset vote"
+msgstr ""
+
+#: ../app/qml/delegates/MessageContentPoll.qml:155
+msgid "Vote!"
+msgstr ""
+
+#: ../app/qml/delegates/MessageContentPoll.qml:166
+msgid "%1 vote"
+msgid_plural "%1 votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/qml/delegates/MessageContentPoll.qml:166
+msgid "No votes yet"
+msgstr ""
+
+#: ../app/qml/delegates/MessageContentVoiceNote.qml:56
+msgid "Voice note"
+msgstr "Nota vocale"
+
+#: ../app/qml/delegates/MessageDateItem.qml:4
+msgid "Some date missing"
+msgstr "Ammancant datos"
+
+#: ../app/qml/delegates/MessageJoinByLink.qml:5
+msgid "%1 joined by invite link"
+msgstr "%1 at aderidu pro mèdiu de unu ligàmene de invitu"
+
+#: ../app/qml/delegates/MessagePinMessage.qml:6
+#: ../app/qml/delegates/MessagePinMessage.qml:7 ../push/pushhelper.cpp:301
+msgid "%1 pinned a message"
+msgstr "%1 at apicadu unu messàgiu"
+
+#: ../app/qml/delegates/MessageScreenshotTaken.qml:4
+msgid "A screenshot has been taken"
+msgstr "Istantànea fata"
+
+#: ../app/qml/delegates/MessageUnavailable.qml:11
+msgid "Message Unavailable..."
+msgstr "Su messàgiu no est a disponimentu..."
+
+#: ../app/qml/delegates/MessageUnreadLabelItem.qml:4
+msgid "Missing label..."
+msgstr "Ammancat s'eticheta..."
+
+#: ../app/qml/delegates/MessageUnsupported.qml:4
+#: ../libs/qtdlib/messages/content/qtdmessageunsupported.cpp:13
+msgid "Unsupported message"
+msgstr "Messàgiu no suportadu"
+
+#: ../app/qml/delegates/NotImplementedYet.qml:12
+msgid "Unknown message type, see logfile for details..."
+msgstr "Genia de messàgiu disconnota. Leghe is detàllios in su registru..."
+
+#: ../app/qml/middleware/ChatMiddleware.qml:107
+msgid "Are you sure you want to clear the history?"
+msgstr "Seguru chi boles isboidare sa cronologia?"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:108
+#: ../app/qml/pages/ChatListPage.qml:265
+msgid "Clear history"
+msgstr "Isbòida sa cronologia"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:119
+msgid "Are you sure you want to leave this chat?"
+msgstr "Seguru chi boles essire dae custa tzarrada?"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:120
+msgid "Leave"
+msgstr "Essi·nche"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:136
+msgid "Join group"
+msgstr "Aderi a su grupu"
+
+#: ../app/qml/middleware/ErrorsMiddleware.qml:19
+msgid "Close"
+msgstr "Serra"
+
+#: ../app/qml/middleware/SettingsMiddleware.qml:17
+#, fuzzy
+#| msgid "Are you sure you want to clear the history?"
+msgid "Are you sure you want to delete this proxy server?"
+msgstr "Seguru chi boles isboidare sa cronologia?"
+
+#: ../app/qml/pages/AboutPage.qml:13 ../app/qml/pages/ChatListPage.qml:182
+msgid "About"
+msgstr "Informatziones"
+
+#. TRANSLATORS: Application name.
+#: ../app/qml/pages/AboutPage.qml:65 ../push/pushhelper.cpp:114
+#: teleports.desktop.in.h:1
+msgid "TELEports"
+msgstr "TELEports"
+
+#: ../app/qml/pages/AboutPage.qml:71
+msgid "Version %1"
+msgstr "Versione %1"
+
+#: ../app/qml/pages/AboutPage.qml:73
+msgid " (git# %1)"
+msgstr " (git# %1)"
+
+#: ../app/qml/pages/AboutPage.qml:92
+msgid "Get the source"
+msgstr "Otene su còdighe de orìgine"
+
+#: ../app/qml/pages/AboutPage.qml:93
+msgid "Report issues"
+msgstr "Signala unu problema"
+
+#: ../app/qml/pages/AboutPage.qml:94
+msgid "Help translate"
+msgstr "Agiuda·si a bortare"
+
+#: ../app/qml/pages/ChatInfoPage.qml:21
+msgid "Group Details"
+msgstr "Detàllios de su grupu"
+
+#: ../app/qml/pages/ChatInfoPage.qml:21
+msgid "Profile"
+msgstr "Profilu"
+
+#: ../app/qml/pages/ChatInfoPage.qml:40
+msgid "Send message"
+msgstr "Imbia su messàgiu"
+
+#: ../app/qml/pages/ChatInfoPage.qml:60
+msgid "Edit user data and press Save"
+msgstr "Modìfica is datos de s'usuàriu e preme Sarva"
+
+#: ../app/qml/pages/ChatInfoPage.qml:62
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:45
+msgid "Save"
+msgstr "Sarva"
+
+#: ../app/qml/pages/ChatInfoPage.qml:70
+msgid "Hidden Number"
+msgstr ""
+
+#: ../app/qml/pages/ChatInfoPage.qml:80 ../app/qml/pages/UserListPage.qml:75
+msgid "First name"
+msgstr "Nòmine"
+
+#: ../app/qml/pages/ChatInfoPage.qml:89 ../app/qml/pages/UserListPage.qml:83
+msgid "Last name"
+msgstr "Sangunadu"
+
+#: ../app/qml/pages/ChatInfoPage.qml:128
+msgid "Notifications"
+msgstr "Notìficas"
+
+#: ../app/qml/pages/ChatInfoPage.qml:157
+msgid "%1 group in common"
+msgid_plural "%1 groups in common"
+msgstr[0] "%1 grupu a cumone"
+msgstr[1] "%1 grupos a cumone"
+
+#: ../app/qml/pages/ChatInfoPage.qml:182
+#: ../app/qml/pages/SecretChatKeyHashPage.qml:15
+msgid "Encryption Key"
+msgstr "Crae de tzifradura"
+
+#: ../app/qml/pages/ChatInfoPage.qml:200
+msgid "Set self-destruct timer"
+msgstr ""
+
+#: ../app/qml/pages/ChatListPage.qml:42 ../app/qml/pages/ChatListPage.qml:138
+#: ../app/qml/pages/SettingsPage.qml:22
+msgid "Settings"
+msgstr "Cunfiguratziones"
+
+#: ../app/qml/pages/ChatListPage.qml:65
+msgid "Search"
+msgstr "Chirca"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "All"
+msgstr "Totus"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Archived"
+msgstr "Archiviadas"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Personal"
+msgstr "Personales"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Unread"
+msgstr "Non lèghidos"
+
+#: ../app/qml/pages/ChatListPage.qml:128 ../libs/qtdlib/chat/qtdchat.cpp:83
+msgid "Saved Messages"
+msgstr "Messàgios sarvados"
+
+#: ../app/qml/pages/ChatListPage.qml:133 ../app/qml/pages/UserListPage.qml:19
+msgid "Contacts"
+msgstr "Cuntatos"
+
+#: ../app/qml/pages/ChatListPage.qml:152
+msgid "System"
+msgstr ""
+
+#: ../app/qml/pages/ChatListPage.qml:161
+msgid "Dark"
+msgstr ""
+
+#: ../app/qml/pages/ChatListPage.qml:170
+msgid "Light"
+msgstr ""
+
+#: ../app/qml/pages/ChatListPage.qml:207
+#, fuzzy
+#| msgid "Select destination or cancel..."
+msgid "Select destination:"
+msgstr "Sèbera una destinatzione o annulla..."
+
+#: ../app/qml/pages/ChatListPage.qml:208
+msgid "or cancel the operation"
+msgstr ""
+
+#: ../app/qml/pages/ChatListPage.qml:260
+msgid "Leave chat"
+msgstr "Essi·nche dae sa tzarrada"
+
+#: ../app/qml/pages/ChatListPage.qml:276 ../app/qml/pages/UserListPage.qml:131
+msgid "Info"
+msgstr "Informatziones"
+
+#: ../app/qml/pages/ChatListPage.qml:281
+msgid "Un/pin"
+msgstr ""
+
+#: ../app/qml/pages/ChatListPage.qml:504
+msgid "Do you want to forward the selected messages to %1?"
+msgstr "Boles torrare a imbiare is messàgios seletzionados a %1?"
+
+#: ../app/qml/pages/ChatListPage.qml:527
+msgid "Do you want to send the imported text to %1?"
+msgstr "Boles imbiare su testu importadu a %1?"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:28
+msgid "Connecting"
+msgstr "Connetende"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:26
+msgid "Offline"
+msgstr "Foras de lìnia"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:30
+#: ../libs/qtdlib/user/qtduserstatus.cpp:78
+msgid "Online"
+msgstr "In lìnia"
+
+#: ../app/qml/pages/ConnectivityPage.qml:27
+msgid "Connecting To Proxy"
+msgstr "Connetende a su serbidore intermediàriu"
+
+#: ../app/qml/pages/ConnectivityPage.qml:29
+msgid "Updating"
+msgstr "Atualizende"
+
+#: ../app/qml/pages/ConnectivityPage.qml:35
+msgid "Connectivity"
+msgstr "Connessione"
+
+#: ../app/qml/pages/ConnectivityPage.qml:73
+msgid "Telegram connectivity status:"
+msgstr "Istadu de connessione de Telegram:"
+
+#: ../app/qml/pages/ConnectivityPage.qml:80
+msgid "Ubuntu Touch connectivity status:"
+msgstr "Istadu de connessione de Ubuntu Touch:"
+
+#: ../app/qml/pages/ConnectivityPage.qml:87
+msgid "Ubuntu Touch bandwith limited"
+msgstr "Àmpiu de banda de Ubuntu Touch limitadu"
+
+#: ../app/qml/pages/ConnectivityPage.qml:87
+msgid "Ubuntu Touch bandwith not limited"
+msgstr "Àmpiu de banda de Ubuntu Touch non limitadu"
+
+#: ../app/qml/pages/LogoutPage.qml:14
+msgid "Good bye!"
+msgstr "A si bìdere!"
+
+#: ../app/qml/pages/LogoutPage.qml:27
+msgid "Disconnecting..."
+msgstr "Disconnetende..."
+
+#: ../app/qml/pages/LogoutPage.qml:37
+msgid ""
+"The app will close automatically when the logout process ends.\n"
+"Please, don't close it manually!"
+msgstr ""
+"S'aplicatzione at a èssere serrada in automàticu comente as a essire de sa "
+"sessione.\n"
+"Non dda serres a manu."
+
+#: ../app/qml/pages/MessageListPage.qml:39
+msgid ", %1 online"
+msgid_plural ", %1 online"
+msgstr[0] ", %1 in lìnia"
+msgstr[1] ", %1 in lìnia"
+
+#: ../app/qml/pages/MessageListPage.qml:101
+msgid "Telegram"
+msgstr "Telegram"
+
+#: ../app/qml/pages/MessageListPage.qml:226
+#, fuzzy
+#| msgid "Unknown origin"
+msgid "Unknown contact"
+msgstr "Orìgine disconnotu"
+
+#: ../app/qml/pages/MessageListPage.qml:228
+msgid "You were added to an unknown chat"
+msgstr ""
+
+#: ../app/qml/pages/MessageListPage.qml:242
+#, fuzzy
+#| msgid "Add Contact"
+msgid "Add to contacts"
+msgstr "Agiunghe cuntatu"
+
+#: ../app/qml/pages/MessageListPage.qml:244
+msgid "Report spam and leave"
+msgstr ""
+
+#: ../app/qml/pages/MessageListPage.qml:360
+msgid "You are not allowed to post in this channel"
+msgstr "Non podes publicare in custu canale"
+
+#: ../app/qml/pages/MessageListPage.qml:364
+msgid "Waiting for other party to accept the secret chat..."
+msgstr "Isetende chi s'àtera parte atzetet sa tzarrada segreta..."
+
+#: ../app/qml/pages/MessageListPage.qml:366
+msgid "Secret chat has been closed"
+msgstr "Tzarrada segreta serrada"
+
+#: ../app/qml/pages/MessageListPage.qml:374
+msgid "You left this group"
+msgstr "As lassadu custu grupu"
+
+#: ../app/qml/pages/MessageListPage.qml:377
+msgid "You have been banned"
+msgstr "T'ant bandidu"
+
+#: ../app/qml/pages/MessageListPage.qml:380
+msgid "You are not allowed to post in this group"
+msgstr "Non podes publicare in custu grupu"
+
+#: ../app/qml/pages/MessageListPage.qml:384
+msgid "You can't write here. Reason unkown"
+msgstr "Non podes iscrìere inoghe. Resone disconnota"
+
+#: ../app/qml/pages/MessageListPage.qml:407
+msgid "Join"
+msgstr "Aderi"
+
+#: ../app/qml/pages/MessageListPage.qml:533
+msgid "Type a message..."
+msgstr "Iscrie unu messàgiu..."
+
+#: ../app/qml/pages/MessageListPage.qml:767
+msgid "<<< Swipe to cancel"
+msgstr "<<< Iscurre pro annullare"
+
+#: ../app/qml/pages/MessageListPage.qml:877
+msgid "Do you want to share your location with %1?"
+msgstr "Boles cumpartzire sa positzione tua cun %1?"
+
+#: ../app/qml/pages/MessageListPage.qml:890
+msgid "Requesting location from OS..."
+msgstr "Rechedende sa positzione a su SO..."
+
+#: ../app/qml/pages/MessageListPage.qml:985
+msgid "Copied message link to clipboard!"
+msgstr ""
+
+#: ../app/qml/pages/PickerPage.qml:16
+msgid "Content Picker"
+msgstr "Seletore de cuntenutos"
+
+#: ../app/qml/pages/PreviewPage.qml:55
+msgid "Share"
+msgstr ""
+
+#: ../app/qml/pages/ProxyManagementPage.qml:19
+#: ../app/qml/pages/SettingsPage.qml:101
+msgid "Proxy Management"
+msgstr ""
+
+#: ../app/qml/pages/ProxyManagementPage.qml:38
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:27
+msgid "Add proxy server"
+msgstr ""
+
+#: ../app/qml/pages/ProxyManagementPage.qml:115
+msgid "Port: %1 Type: %2 Ping: %3ms"
+msgstr ""
+
+#: ../app/qml/pages/SecretChatKeyHashPage.qml:66
+msgid ""
+"Check the image or the text. If they match with the ones on <b>%1</b>'s "
+"device, end-to-end cryptography is granted."
+msgstr ""
+"Controlla s'immàgine o su testu. Si cointzident cun cussas de su dispositivu "
+"de <b>%1</b>, sa critografia de puntu a puntu est garantida."
+
+#: ../app/qml/pages/SettingsPage.qml:69 ../app/qml/pages/SettingsPage.qml:183
+msgid "Logout"
+msgstr "Essi"
+
+#: ../app/qml/pages/SettingsPage.qml:85
+msgid "Delete account"
+msgstr "Cantzella custu contu"
+
+#: ../app/qml/pages/SettingsPage.qml:117
+msgid "Connectivity status"
+msgstr "Istadu de sa connessione"
+
+#: ../app/qml/pages/SettingsPage.qml:134
+msgid "Toggle message status indicators"
+msgstr "Cuncàmbia indicadores de istadu de is messàgios"
+
+#: ../app/qml/pages/SettingsPage.qml:161
+msgid "Navigate through replied messages"
+msgstr ""
+
+#: ../app/qml/pages/SettingsPage.qml:181
+msgid ""
+"Warning: Logging out will delete all local data from this device, including "
+"secret chats. Are you still sure you want to log out?"
+msgstr ""
+"Atentzione: essende de sa sessione s'ant a cantzellare totu is datos locales "
+"de custu dispositivu, fintzas is tzarradas segretas. Seguru chi boles essire?"
+
+#: ../app/qml/pages/SettingsPage.qml:191
+msgid ""
+"Warning: Deleting the account will delete all the data you ever received or "
+"sent using telegram except for data you have explicitly saved outside the "
+"telegram cloud. Are you really really sure you want to delete your telegram "
+"account?"
+msgstr ""
+"Atentzione: cantzellende custu contu ant a èssere cantzellados totu is datos "
+"chi as retzidu o imbiadu pro mèdiu de Telegram francu cussos chi apas "
+"sarvadu in foras de sa nue de Telegram. Seguru chi boles a beru cantzellare "
+"su contu de Telegram tuo?"
+
+#: ../app/qml/pages/UserListPage.qml:38
+msgid "Add Contact"
+msgstr "Agiunghe cuntatu"
+
+#: ../app/qml/pages/UserListPage.qml:43
+msgid "Import Contact"
+msgstr "Importa unu cuntatu"
+
+#: ../app/qml/pages/UserListPage.qml:55
+msgid "The contact will be added. First and last name are optional"
+msgstr ""
+"Su cuntatu at a èssere agiuntu. Su nòmine e su sangunadu sunt optzionales"
+
+#: ../app/qml/pages/UserListPage.qml:57
+msgid "Add"
+msgstr "Agiunghe"
+
+#: ../app/qml/pages/UserListPage.qml:67
+msgid "Phone no"
+msgstr "Nùmeru de telèfonu"
+
+#: ../app/qml/pages/UserListPage.qml:136
+msgid "Secret Chat"
+msgstr "Tzarrada segreta"
+
+#: ../app/qml/pages/UserListPage.qml:213
+msgid "The contact will be deleted. Are you sure?"
+msgstr "Su cuntatu at a èssere cantzelladu. Boles sighire?"
+
+#: ../app/qml/pages/WaitCodePage.qml:20
+msgid "Enter Code"
+msgstr "Inserta·nche su còdighe"
+
+#: ../app/qml/pages/WaitCodePage.qml:41
+#, fuzzy
+#| msgid ""
+#| "A code was sent via Telegram to your other devices. Please enter it here."
+msgid "A code was sent via Telegram to your other devices."
+msgstr ""
+"Amus imbiadu pro mèdiu de Telegram unu còdighe a un'àteru dispositivu tuo. "
+"Inserta·nche·ddu inoghe."
+
+#: ../app/qml/pages/WaitCodePage.qml:47
+#, fuzzy
+#| msgid ""
+#| "A code was sent via Telegram to your other devices. Please enter it here."
+msgid "A code was sent via text message to your phone."
+msgstr ""
+"Amus imbiadu pro mèdiu de Telegram unu còdighe a un'àteru dispositivu tuo. "
+"Inserta·nche·ddu inoghe."
+
+#: ../app/qml/pages/WaitCodePage.qml:53
+msgid "Please enter it here:"
+msgstr ""
+
+#: ../app/qml/pages/WaitCodePage.qml:59
+msgid "Code"
+msgstr "Còdighe"
+
+#: ../app/qml/pages/WaitCodePage.qml:73
+msgid ""
+"If you do not receive any code after %1 seconds press retry to receive the "
+"code via an alternate method"
+msgstr ""
+
+#: ../app/qml/pages/WaitCodePage.qml:78
+msgid "Resend code..."
+msgstr ""
+
+#: ../app/qml/pages/WaitCodePage.qml:88
+msgid ""
+"Note: If this is your first signup to Telegram you must register your "
+"account via an official mobile App (Android or iOS) first."
+msgstr ""
+
+#: ../app/qml/pages/WaitPasswordPage.qml:18
+msgid "Enter Password"
+msgstr "Inserta·nche una crae"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:39
+msgid "Password"
+msgstr "Crae"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:57
+msgid "Password hint: %1"
+msgstr "Cussìgiu de sa crae: %1"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:62
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:98
+#: ../app/qml/pages/WaitRegistrationPage.qml:57
+msgid "Next..."
+msgstr "Sighi..."
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:17
+msgid "Enter Phone Number"
+msgstr "Inserta·nche su nùmeru de telèfonu"
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:54
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:64
+msgid "Phone number"
+msgstr "Nùmeru de telèfonu"
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:88
+msgid "Please confirm your country code and enter your phone number."
+msgstr ""
+"Cunfirma su còdighe de paisu tuo e inserta·nche su nùmeru de telèfonu tuo."
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:92
+msgid "Manage Proxy Servers..."
+msgstr ""
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:17
+msgid "Enter your Name"
+msgstr "Inserta·nche su nòmine tuo"
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:38
+msgid "First Name"
+msgstr "Nòmine"
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:44
+msgid "Last Name"
+msgstr "Sangunadu"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:27
+msgid "Edit proxy server"
+msgstr ""
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:82
+msgid "Server:"
+msgstr ""
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:88
+msgid "Port:"
+msgstr ""
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:93
+msgid "Type:"
+msgstr ""
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:99
+msgid "Username:"
+msgstr ""
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:105
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:171
+#, fuzzy
+#| msgid "Password"
+msgid "Password:"
+msgstr "Crae"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:111
+#, fuzzy
+#| msgid "Secret Chat"
+msgid "Secret:"
+msgstr "Tzarrada segreta"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:117
+msgid "HTTP only:"
+msgstr ""
+
+#: ../app/qml/stores/AuthStateStore.qml:53
+msgid ""
+"Unsupported code verification was requested by the server. Please register "
+"your account via an official mobile App (Android or iOS) first and try again."
+msgstr ""
+
+#: ../app/qml/stores/AuthStateStore.qml:66
+msgid "Invalid phone number!"
+msgstr "Nùmeru de telèfonu non vàlidu"
+
+#: ../app/qml/stores/AuthStateStore.qml:73
+msgid "Invalid code!"
+msgstr "Còdighe non vàlidu"
+
+#: ../app/qml/stores/AuthStateStore.qml:80
+msgid "Invalid password!"
+msgstr "Sa crae no est vàlida"
+
+#: ../app/qml/stores/AuthStateStore.qml:100
+msgid "Auth code not expected right now"
+msgstr "Còdighe de autenticatzione no isetadu immoe"
+
+#: ../app/qml/stores/AuthStateStore.qml:106
+msgid "Oops! Internal error."
+msgstr "Cess! Faddina interna."
+
+#: ../app/qml/stores/AuthStateStore.qml:132
+msgid "Registration not expected right now"
+msgstr "Registratzione no isetada immoe"
+
+#: ../app/qml/stores/ChatStateStore.qml:44
+#: ../app/qml/stores/ChatStateStore.qml:50
+#: ../app/qml/stores/SettingsStore.qml:28
+msgid "Error"
+msgstr "Faddina"
+
+#: ../app/qml/stores/ChatStateStore.qml:44
+msgid "No valid location received after 180 seconds!"
+msgstr "Nissuna positzione vàlida retzida a pustis de 180 segundos"
+
+#: ../app/qml/stores/ChatStateStore.qml:50
+msgid "Username <b>@%1</b> not found"
+msgstr "Nòmine utente <b>@%1</b> no agatadu"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:12
+msgid "Push Registration Failed"
+msgstr "Faddina in in su registru Push"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:23
+msgid "No Ubuntu One"
+msgstr "Nissunu contu Ubuntu One"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:24
+msgid "Please connect to Ubuntu One to receive push notifications."
+msgstr "Connete·ti a Ubuntu One pro retzire notìficas Push."
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:86 ../libs/qtdlib/user/qtduser.cpp:208
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted User"
+msgstr "Cantzella"
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:349
+msgid "Draft:"
+msgstr "Abbotzu:"
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:360
+msgid "Me"
+msgstr "Deo"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:7
+#, fuzzy
+#| msgid "is doing something..."
+msgid "Doing something..."
+msgstr "est faghende carchi cosa..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:8
+msgid "is doing something..."
+msgstr "est faghende carchi cosa..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:9
+msgid "are doing something..."
+msgstr "sunt faghende carchi cosa..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:37
+#, fuzzy
+#| msgid "is choosing contact..."
+msgid "Choosing a contact..."
+msgstr "est seberende unu cuntatu..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:38
+#, fuzzy
+#| msgid "is choosing contact..."
+msgid "is choosing a contact..."
+msgstr "est seberende unu cuntatu..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:39
+#, fuzzy
+#| msgid "are choosing contact..."
+msgid "are choosing a contact..."
+msgstr "sunt seberende unu cuntatu..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:46
+#, fuzzy
+#| msgid "is recording..."
+msgid "Recording a video..."
+msgstr "est registrende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:47
+#, fuzzy
+#| msgid "is recording..."
+msgid "is recording a video..."
+msgstr "est registrende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:48
+#, fuzzy
+#| msgid "are recording..."
+msgid "are recording a video..."
+msgstr "sunt registrende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:55
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "Choosing a location..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:56
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "is choosing a location..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:57
+#, fuzzy
+#| msgid "are choosing location..."
+msgid "are choosing a location..."
+msgstr "sunt seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:64
+#, fuzzy
+#| msgid "sent a video note"
+msgid "Recording a video note..."
+msgstr "at imbiadu una nota de vìdeu"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:65
+#, fuzzy
+#| msgid "sent a video note"
+msgid "is recording a video note..."
+msgstr "at imbiadu una nota de vìdeu"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:66
+#, fuzzy
+#| msgid "are recording..."
+msgid "are recording a video note..."
+msgstr "sunt registrende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:73
+#, fuzzy
+#| msgid "sent a voice note"
+msgid "Recording a voice note..."
+msgstr "at imbiadu unu messàgiu vocale"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:74
+#, fuzzy
+#| msgid "sent a voice note"
+msgid "is recording a voice note..."
+msgstr "at imbiadu unu messàgiu vocale"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:75
+#, fuzzy
+#| msgid "are recording..."
+msgid "are recording a voice note..."
+msgstr "sunt registrende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:82
+#, fuzzy
+#| msgid "Missing label..."
+msgid "Starting a game..."
+msgstr "Ammancat s'eticheta..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:83
+#, fuzzy
+#| msgid "Missing label..."
+msgid "is starting a game..."
+msgstr "Ammancat s'eticheta..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:84
+#, fuzzy
+#| msgid "are typing..."
+msgid "are starting a game..."
+msgstr "sunt iscriende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:91
+#, fuzzy
+#| msgid "is typing..."
+msgid "Typing..."
+msgstr "est iscriende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:92
+msgid "is typing..."
+msgstr "est iscriende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:93
+msgid "are typing..."
+msgstr "sunt iscriende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:100
+#, fuzzy
+#| msgid "is doing something..."
+msgid "Uploading a document..."
+msgstr "est faghende carchi cosa..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:101
+#, fuzzy
+#| msgid "is doing something..."
+msgid "is uploading a document..."
+msgstr "est faghende carchi cosa..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:102
+#, fuzzy
+#| msgid "are doing something..."
+msgid "are uploading a document..."
+msgstr "sunt faghende carchi cosa..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:109
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "Uploading a photo..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:110
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "is uploading a photo..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:111
+#, fuzzy
+#| msgid "are choosing location..."
+msgid "are uploading a photo..."
+msgstr "sunt seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:118
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "Uploading a video..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:119
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "is uploading a video..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:120
+#, fuzzy
+#| msgid "are choosing location..."
+msgid "are uploading a video..."
+msgstr "sunt seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:127
+#, fuzzy
+#| msgid "sent a video note"
+msgid "Uploading a video note..."
+msgstr "at imbiadu una nota de vìdeu"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:128
+#, fuzzy
+#| msgid "sent a video note"
+msgid "is uploading a video note..."
+msgstr "at imbiadu una nota de vìdeu"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:129
+#, fuzzy
+#| msgid "sent a video note"
+msgid "are uploading a video note..."
+msgstr "at imbiadu una nota de vìdeu"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:136
+#, fuzzy
+#| msgid "sent a voice note"
+msgid "Uploading a voice note..."
+msgstr "at imbiadu unu messàgiu vocale"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:137
+#, fuzzy
+#| msgid "sent a voice note"
+msgid "is uploading a voice note..."
+msgstr "at imbiadu unu messàgiu vocale"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:138
+#, fuzzy
+#| msgid "sent a voice note"
+msgid "are uploading a voice note..."
+msgstr "at imbiadu unu messàgiu vocale"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:145
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "Choosing a sticker..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:146
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "is choosing a sticker..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:147
+#, fuzzy
+#| msgid "are choosing location..."
+msgid "are choosing a sticker..."
+msgstr "sunt seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:154
+#, fuzzy
+#| msgid "is recording..."
+msgid "Recording audio..."
+msgstr "est registrende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:155
+#, fuzzy
+#| msgid "is recording..."
+msgid "is recording audio..."
+msgstr "est registrende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:156
+#, fuzzy
+#| msgid "are recording..."
+msgid "are recording audio..."
+msgstr "sunt registrende..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:163
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "Uploading audio..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:164
+#, fuzzy
+#| msgid "is choosing location..."
+msgid "is uploading audio..."
+msgstr "est seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:165
+#, fuzzy
+#| msgid "are choosing location..."
+msgid "are uploading audio..."
+msgstr "sunt seberende una positzione..."
+
+#: ../libs/qtdlib/chat/qtdchatlistmodel.cpp:443
+msgid "Maximum number of pinned chat exceeded"
+msgstr ""
+
+#: ../libs/qtdlib/messages/content/qtdmessageanimation.cpp:27
+msgid "GIF"
+msgstr "GIF"
+
+#: ../libs/qtdlib/messages/content/qtdmessageanimation.cpp:27
+msgid "GIF,"
+msgstr "GIF,"
+
+#: ../libs/qtdlib/messages/content/qtdmessagebasicgroupchatcreate.cpp:24
+#: ../libs/qtdlib/messages/content/qtdmessagesupergroupchatcreate.cpp:23
+msgid "created this group"
+msgstr "at creadu custu grupu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:68
+msgid "Call Declined"
+msgstr "Mutida refudada"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:71
+msgid "Call Disconnected"
+msgstr "Mutida disconnètida"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:74
+msgid "Call Ended"
+msgstr "Mutida acabbada"
+
+#. TRANSLATORS: This is a duration in hours:minutes:seconds format - only arrange the order, do not translate!
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:78
+msgid "%1:%2:%3"
+msgstr "%1:%2:%3"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:79
+msgid "Outgoing Call (%1)"
+msgstr "Mutida in essida (%1)"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:80
+msgid "Incoming Call (%1)"
+msgstr "Mutida in intrada (%1)"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:83
+msgid "Cancelled Call"
+msgstr "Mutida cantzellada"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:83
+msgid "Missed Call"
+msgstr "Mutida pèrdida"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:86
+msgid "Call"
+msgstr "Muti"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechataddmembers.cpp:34
+msgid "added one or more members"
+msgstr "at agiuntu unu o prus membros"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechataddmembers.cpp:34
+msgid "joined the group"
+msgstr "at aderidu a su grupu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatchangephoto.cpp:21
+msgid "changed the chat photo"
+msgstr "at mudadu sa fotografia de sa tzarrada"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatchangetitle.cpp:19
+msgid "changed the chat title"
+msgstr "at mudadu su tìtulu de sa tzarrada"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletemember.cpp:32
+msgid "left the group"
+msgstr "at lassadu su grupu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletemember.cpp:32
+msgid "removed a member"
+msgstr "at bogadu unu membru"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletephoto.cpp:8
+msgid "deleted the chat photo"
+msgstr "at cantzelladu sa foto de sa tzarrada"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatjoinbylink.cpp:8
+msgid "joined the group via the public link"
+msgstr "at aderidu a su grupu pro mèdiu de su ligàmene pùblicu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatsetmessageautodeletetime.cpp:67
+msgid "Self-destruct timer was set"
+msgstr ""
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatupgradefrom.cpp:30
+#: ../libs/qtdlib/messages/content/qtdmessagechatupgradeto.cpp:30
+msgid "upgraded to supergroup"
+msgstr "at atualizadu a supergrupu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecontact.cpp:19
+msgid "Contact"
+msgstr "Cuntatu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecontactregistered.cpp:9
+msgid "has joined Telegram!"
+msgstr "at aderidu a Telegram"
+
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:19
+msgid "Today"
+msgstr "Oe"
+
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:21
+msgid "Yesterday"
+msgstr "Eris"
+
+#. TRANSLATORS: String in date separator label. For messages within a week: full weekday name
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:24
+msgid "dddd"
+msgstr "dddd"
+
+#. TRANSLATORS: String in date separator label. For messages of pas years: date number, month name and year
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:27
+msgid "dd MMMM yyyy"
+msgstr "dd MMMM yyyy"
+
+#. TRANSLATORS: String in date separator label. For messages older that a week but within the current year: date number and month name
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:30
+msgid "dd MMMM"
+msgstr "dd MMMM"
+
+#: ../libs/qtdlib/messages/content/qtdmessagelocation.cpp:20
+msgid "Location"
+msgstr "Positzione"
+
+#: ../libs/qtdlib/messages/content/qtdmessagephoto.cpp:28
+msgid "Photo"
+msgstr "Fotografias"
+
+#: ../libs/qtdlib/messages/content/qtdmessagephoto.cpp:28
+msgid "Photo,"
+msgstr "Fotografias,"
+
+#: ../libs/qtdlib/messages/content/qtdmessagepinmessage.cpp:20
+msgid "Pinned Message"
+msgstr "Messàgiu apicadu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagesticker.cpp:33
+msgid "Sticker"
+msgstr "Adesivu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideo.cpp:27
+msgid "Video"
+msgstr "Vìdeu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideo.cpp:27
+msgid "Video,"
+msgstr "Vìdeu,"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideonote.cpp:27
+msgid "Video message"
+msgstr "Messàgiu de vìdeu"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevoicenote.cpp:32
+msgid "Voice message"
+msgstr "Messàgiu vocale"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevoicenote.cpp:32
+msgid "Voice message,"
+msgstr "Messàgiu vocale,"
+
+#: ../libs/qtdlib/messages/forwardinfo/qtdmessageforwardinfo.cpp:61
+msgid "Unknown origin"
+msgstr "Orìgine disconnotu"
+
+#: ../libs/qtdlib/messages/qtdmessagecontentfactory.cpp:134
+msgid "Unimplemented:"
+msgstr "No implementadu:"
+
+#: ../libs/qtdlib/messages/qtdmessagelistmodel.cpp:260
+msgid "Unread Messages"
+msgstr "Messàgios non lèghidos"
+
+#: ../libs/qtdlib/user/qtduser.cpp:251
+msgid "Bot"
+msgstr ""
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:28
+msgid "Last seen one month ago"
+msgstr "Ùrtima visualizatzione unu mese a oe"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:39
+msgid "Last seen one week ago"
+msgstr "Ùrtima visualizatzione una chida a oe"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:55
+msgid "Last seen "
+msgstr "Ùrtima visualizatzione "
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:55
+msgid "dd.MM.yy hh:mm"
+msgstr "dd.MM.yy hh:mm"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:96
+msgid "Seen recently"
+msgstr "Bidu de reghente"
+
+#: ../push/pushhelper.cpp:124
+msgid "sent you a message"
+msgstr "t'at imbiadu unu messàgiu"
+
+#: ../push/pushhelper.cpp:128
+msgid "sent you a photo"
+msgstr "t'at imbiadu una foto"
+
+#: ../push/pushhelper.cpp:132
+msgid "sent you a sticker"
+msgstr "t'at imbiadu un'adesivu"
+
+#: ../push/pushhelper.cpp:136
+msgid "sent you a video"
+msgstr "t'at imbiadu unu vìdeu"
+
+#: ../push/pushhelper.cpp:140
+msgid "sent you a document"
+msgstr "t'at imbiadu unu documentu"
+
+#: ../push/pushhelper.cpp:144
+msgid "sent you an audio message"
+msgstr "t'at imbiadu unu messàgiu de àudio"
+
+#: ../push/pushhelper.cpp:148
+msgid "sent you a voice message"
+msgstr "t'at imbiadu unu messàgiu vocale"
+
+#: ../push/pushhelper.cpp:152
+msgid "shared a contact with you"
+msgstr "at cumpartzidu unu cuntatu cun tegus"
+
+#: ../push/pushhelper.cpp:156
+msgid "sent you a map"
+msgstr "t'at imbiadu una mapa"
+
+#: ../push/pushhelper.cpp:161
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: ../push/pushhelper.cpp:166
+msgid "%1 sent a message to the group"
+msgstr "%1 at imbiadu unu messàgiu a su grupu"
+
+#: ../push/pushhelper.cpp:171
+msgid "%1 sent a photo to the group"
+msgstr "%1 at imbiadu una foto a su grupu"
+
+#: ../push/pushhelper.cpp:176
+msgid "%1 sent a sticker to the group"
+msgstr "%1 at imbiadu un'adesivu a su grupu"
+
+#: ../push/pushhelper.cpp:181
+msgid "%1 sent a video to the group"
+msgstr "%1 at imbiadu unu vìdeu a su grupu"
+
+#: ../push/pushhelper.cpp:186
+msgid "%1 sent a document to the group"
+msgstr "%1 at imbiadu unu documentu a su grupu"
+
+#: ../push/pushhelper.cpp:191
+msgid "%1 sent a voice message to the group"
+msgstr "%1 at imbiadu unu messàgiu vocale a su grupu"
+
+#: ../push/pushhelper.cpp:196
+msgid "%1 sent a GIF to the group"
+msgstr "%1 at imbiadu una GIF a su grupu"
+
+#: ../push/pushhelper.cpp:201
+msgid "%1 sent a contact to the group"
+msgstr "%1 at imbiadu unu cuntatu a su grupu"
+
+#: ../push/pushhelper.cpp:206
+msgid "%1 sent a map to the group"
+msgstr "%1 at imbiadu una mapa a su grupu"
+
+#: ../push/pushhelper.cpp:211 ../push/pushhelper.cpp:232
+msgid "%1 invited you to the group"
+msgstr "%1 t'at invitadu a su grupu"
+
+#: ../push/pushhelper.cpp:216
+msgid "%1 changed group name"
+msgstr "%1 at mudadu su nòmine de su grupu"
+
+#: ../push/pushhelper.cpp:221
+msgid "%1 changed group photo"
+msgstr "%1 at mudadu sa fotografia de su grupu"
+
+#. TRANSLATORS: Notification message saying: person A invited person B (to a group)
+#: ../push/pushhelper.cpp:227
+msgid "%1 invited %2"
+msgstr "%1 at invitadu a %2"
+
+#: ../push/pushhelper.cpp:243
+msgid "%1 removed you from the group"
+msgstr "%1 ti nch'at bogadu de su grupu"
+
+#: ../push/pushhelper.cpp:248
+msgid "%1 has left the group"
+msgstr "%1 at lassadu su grupu"
+
+#: ../push/pushhelper.cpp:253
+msgid "%1 has returned to the group"
+msgstr "%1 est torradu a su grupu"
+
+#. TRANSLATORS: This format string tells location, like: @ McDonals, New York
+#: ../push/pushhelper.cpp:258
+msgid "@ %1"
+msgstr "in %1"
+
+#. TRANSLATORS: This format string tells who has checked in (in a geographical location).
+#: ../push/pushhelper.cpp:260
+msgid "%1 has checked-in"
+msgstr "%1 est intradu"
+
+#. TRANSLATORS: This format string tells who has just joined Telegram.
+#: ../push/pushhelper.cpp:266
+msgid "%1 joined Telegram!"
+msgstr "%1 at aderidu a Telegram!"
+
+#: ../push/pushhelper.cpp:271 ../push/pushhelper.cpp:277
+msgid "New login from unrecognized device"
+msgstr "Atzessu nou dae unu dispositivu disconnotu"
+
+#. TRANSLATORS: This format string indicates new login of: (device name) at (location).
+#: ../push/pushhelper.cpp:276
+msgid "%1 @ %2"
+msgstr "%1 in %2"
+
+#: ../push/pushhelper.cpp:281
+msgid "updated profile photo"
+msgstr "at atualizadu sa foto de su profilu"
+
+#: ../push/pushhelper.cpp:286 ../push/pushhelper.cpp:291
+#: ../push/pushhelper.cpp:296
+msgid "You have a new message"
+msgstr "Tenes unu messàgiu nou"
+
+#~ msgid "Do you want to send the imported files to %1?"
+#~ msgstr "Boles imbiare is archìvios importados a %1?"
+
+#, fuzzy
+#~| msgid "Select destination or cancel..."
+#~ msgid "Select destination or cancel..."
+#~ msgstr "Sèbera una destinatzione o annulla..."
+
+#~ msgid "Night mode"
+#~ msgstr "Modalidade noturna"
+
+#, fuzzy
+#~| msgid "%1 pinned a message"
+#~ msgid "3 pinned messages"
+#~ msgstr "%1 at apicadu unu messàgiu"
+
+#, fuzzy
+#~| msgid "%1 pinned a message"
+#~ msgid "Open pinned messages list"
+#~ msgstr "%1 at apicadu unu messàgiu"
+
+#~ msgid "File: "
+#~ msgstr "Archìviu: "
+
+#~ msgid "Message time-to-live has been set to <b>%1</b> seconds"
+#~ msgstr "Durada de su messàgiu cunfigurada in <b>%1</b> segundos"
+
+#~ msgid "message TTL has been changed"
+#~ msgstr "TTL de su messàgiu modificadu"
+
+#~ msgid "Animated stickers not supported yet :("
+#~ msgstr "No ddoe est ancora suportu pro is adesivos animados :("
+
+#~ msgid "not available"
+#~ msgstr "no est a disponimentu"
+
+#~ msgid "MMMM dd, yyyy"
+#~ msgstr "dd MMMM yyyy"
+
+#~ msgid "MMMM dd"
+#~ msgstr "dd MMMM"
+
+#~ msgid "Incorrect auth code length."
+#~ msgstr "Longària de su còdighe de autenticatzione non curreta."
+
+#~ msgid "Phone call"
+#~ msgstr "Tzerriada de telèfonu"
+
+#~ msgid "sent an audio message"
+#~ msgstr "at imbiadu unu messàgiu de àudio"
+
+#~ msgid "sent a photo"
+#~ msgstr "at imbiadu una foto"
+
+#~ msgid "sent a video"
+#~ msgstr "at imbiadu unu vìdeu"
+
+#~ msgid "joined by invite link"
+#~ msgstr "at aderidu tràmite unu ligàmene de invitu"
+
+#~ msgid "Image"
+#~ msgstr "Immàgine"
+
+#~ msgid "File"
+#~ msgstr "Archìviu"
+
+#~ msgid "sent an unknown message: %1"
+#~ msgstr "at imbiadu unu messàgiu disconnotu: %1"
+
+#~ msgid "Status:"
+#~ msgstr "Istadu:"

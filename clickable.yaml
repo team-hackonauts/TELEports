@@ -1,0 +1,73 @@
+clickable_minimum_required: '8.0.0'
+
+framework: ubuntu-sdk-20.04
+
+builder: cmake
+build_args:
+- -DCMAKE_INSTALL_BINDIR=.
+
+dependencies_host:
+- ccache
+dependencies_target:
+- libquazip5-dev
+- gperf
+- libssl-dev
+- liblomiri-thumbnailer-qt-dev
+
+install_lib:
+- /usr/lib/${ARCH_TRIPLET}/libquazip5.so.*
+- ${TDLIB_LIB_INSTALL_DIR}/lib/${ARCH_TRIPLET}/libtdjson.so.*
+- ${RLOTTIE_LIB_INSTALL_DIR}/lib/*so*
+install_qml:
+- ${RLOTTIE_QML_LIB_INSTALL_DIR}/lib/${ARCH_TRIPLET}/rLottieQml/QLottieFrameProvider
+
+kill: teleports
+
+libraries:
+  quickflux:
+    src_dir: libs/quickflux
+
+    builder: cmake
+    build_args:
+    - -DCMAKE_CXX_FLAGS=-DQUICK_FLUX_DISABLE_AUTO_QML_REGISTER=1
+
+  rlottie:
+    src_dir: libs/vendor/rlottie
+
+    builder: cmake
+    build_args:
+    - -DCMAKE_CXX_FLAGS=-Wno-sign-compare
+    - -DLIB_INSTALL_DIR=lib
+
+  rlottie-qml:
+    src_dir: libs/rlottie-qml
+
+    builder: cmake
+
+    dependencies_target:
+    - libquazip5-dev
+
+  tdlib-prepare:
+    src_dir: libs/vendor/tdlib
+
+    builder: cmake
+    make_args: prepare_cross_compiling
+
+    dependencies_target:
+    - gperf
+
+  tdlib:
+    src_dir: libs/vendor/tdlib
+
+    builder: cmake
+    build_args:
+    - -DTHREADS_PTHREAD_ARG=0
+    - -DCMAKE_CROSSCOMPILING=ON
+    - -DCMAKE_INSTALL_LIBDIR=lib/${ARCH_TRIPLET}
+    make_args: tdjson
+    make_jobs: 1
+
+    dependencies_target:
+    - zlib1g-dev
+    - libssl-dev
+    - gperf

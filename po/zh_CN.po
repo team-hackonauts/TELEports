@@ -1,0 +1,1583 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the teleports.ubports package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: teleports.ubports\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 04:14+0000\n"
+"PO-Revision-Date: 2025-02-24 19:58+0000\n"
+"Last-Translator: Cassian <prismarine@epicraft.top>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/ubports/teleports/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.10.2-dev\n"
+
+#: ../app/qml/actions/BackAction.qml:10
+msgid "Back"
+msgstr "返回"
+
+#: ../app/qml/components/CountryPicker.qml:21
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:36
+msgid "Choose a country"
+msgstr "选择国家或地区"
+
+#: ../app/qml/components/CountryPicker.qml:38
+msgid "Search country name..."
+msgstr "搜索国家/地区名称..."
+
+#: ../app/qml/components/DeleteDialog.qml:11
+msgid "Delete Message"
+msgstr "删除消息"
+
+#: ../app/qml/components/DeleteDialog.qml:13
+msgid "Do you really want to delete it?"
+msgstr "您真的要删除吗？"
+
+#: ../app/qml/components/DeleteDialog.qml:13
+msgid ""
+"The message will be deleted for all users in the chat. Do you really want to "
+"delete it?"
+msgstr "将为此聊天中所有用户删除此消息。您真的要删除吗？"
+
+#: ../app/qml/components/DeleteDialog.qml:14
+msgid ""
+"The message will be deleted only for you. Do you really want to delete it?"
+msgstr "将只为您删除此消息。您真的要删除吗？"
+
+#: ../app/qml/components/DeleteDialog.qml:16
+#: ../app/qml/delegates/MessageBubbleItem.qml:37
+#: ../app/qml/middleware/SettingsMiddleware.qml:28
+#: ../app/qml/pages/ProxyManagementPage.qml:78
+#: ../app/qml/pages/SettingsPage.qml:193 ../app/qml/pages/UserListPage.qml:121
+#: ../app/qml/pages/UserListPage.qml:215
+msgid "Delete"
+msgstr "删除"
+
+#: ../app/qml/components/DeleteDialog.qml:29
+#: ../app/qml/middleware/ChatMiddleware.qml:109
+msgid "Delete for all users"
+msgstr "为所有用户删除"
+
+#: ../app/qml/components/GroupPreviewDialog.qml:35
+#: ../app/qml/pages/MessageListPage.qml:37
+msgid "%1 member"
+msgid_plural "%1 members"
+msgstr[0] "%1 位成员"
+
+#: ../app/qml/components/GroupPreviewDialog.qml:37
+msgid "%1 members, among them:"
+msgstr "%1 位成员，其中："
+
+#: ../app/qml/components/InputInfoBox.qml:91
+msgid "Edit message"
+msgstr "编辑消息"
+
+#: ../app/qml/components/MessageStatusRow.qml:36
+msgid "Edited"
+msgstr "已编辑"
+
+#: ../app/qml/components/PopupDialog.qml:14
+msgid "Okay"
+msgstr "好的"
+
+#: ../app/qml/components/PopupDialog.qml:15
+#: ../app/qml/components/PopupWaitCancel.qml:13
+#: ../app/qml/pages/ChatListPage.qml:34
+msgid "Cancel"
+msgstr "取消"
+
+#: ../app/qml/components/SendMediaDialog.qml:19
+msgid "Would you like to send text?"
+msgstr "您要发送文本吗？"
+
+#: ../app/qml/components/SendMediaDialog.qml:20
+msgid "Would you like to send file?"
+msgid_plural "Would you like to send files?"
+msgstr[0] "您要发送文件吗？"
+
+#: ../app/qml/components/SendMediaDialog.qml:22
+#: ../app/qml/components/SendMessageOptionsDialog.qml:21
+#: ../app/qml/pages/ChatListPage.qml:529
+#: ../app/qml/pages/MessageListPage.qml:879
+msgid "Send"
+msgstr "发送"
+
+#: ../app/qml/components/SendMediaDialog.qml:91
+msgid "Send uncompressed"
+msgstr "发送未压缩信息"
+
+#: ../app/qml/components/SendMediaDialog.qml:119
+msgid "Send as album"
+msgstr ""
+
+#: ../app/qml/components/SendMediaDialog.qml:155
+#: ../app/qml/pages/ChatListPage.qml:519 ../app/qml/pages/ChatListPage.qml:543
+msgid "Enter optional message..."
+msgstr "输入可选消息..."
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:20
+msgid "Send Message options"
+msgstr "发送消息设置"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:29
+msgid "Send push notification"
+msgstr "发送推送通知"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:36
+msgid "Schedule message:"
+msgstr "计划消息："
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:55
+msgid "Send immediately"
+msgstr "立即发送"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:68
+msgid "Wait until specified date and time"
+msgstr "等待到特定日期时间"
+
+#: ../app/qml/components/SendMessageOptionsDialog.qml:82
+msgid "Wait until the receiver goes online"
+msgstr "等待到接收者上线"
+
+#: ../app/qml/components/SetTTLDialog.qml:17
+msgid "Self-destruct timer for messages in this chat:"
+msgstr "此聊天中的消息自毁计时："
+
+#: ../app/qml/components/SetTTLDialog.qml:67
+#: ../app/qml/components/SetTTLDialog.qml:71
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:22
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 秒"
+
+#: ../app/qml/components/SetTTLDialog.qml:75
+msgid "1 minute"
+msgstr "1 分钟"
+
+#: ../app/qml/components/SetTTLDialog.qml:79
+msgid "1 hour"
+msgstr "1 小时"
+
+#: ../app/qml/components/SetTTLDialog.qml:83
+msgid "1 day"
+msgstr "1 天"
+
+#: ../app/qml/components/SetTTLDialog.qml:87
+msgid "1 week"
+msgstr "1 周"
+
+#: ../app/qml/components/SetTTLDialog.qml:91
+msgid "Off"
+msgstr "关闭"
+
+#: ../app/qml/components/UserProfile.qml:74
+msgid "Members: %1"
+msgstr "成员：%1"
+
+#: ../app/qml/delegates/MessageBasicGroupChatCreate.qml:6
+msgid "Channel called <b>%1</b> created"
+msgstr "建立了名为 <b>%1</b> 的频道"
+
+#: ../app/qml/delegates/MessageBasicGroupChatCreate.qml:7
+msgid "%1 created a group called <b>%2</b>"
+msgstr "%1 建立了名为 <b>%2</b> 的群组"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:49
+msgid "Copy"
+msgstr "复制"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:59
+#: ../app/qml/pages/ChatInfoPage.qml:34
+#: ../app/qml/pages/ProxyManagementPage.qml:87
+msgid "Edit"
+msgstr "编辑"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:67
+msgid "Reply"
+msgstr "回复"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:73
+msgid "Sticker Pack info"
+msgstr "贴纸包信息"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:80
+msgid "Copy link"
+msgstr "复制链接"
+
+#: ../app/qml/delegates/MessageBubbleItem.qml:88
+#: ../app/qml/pages/ChatListPage.qml:506
+msgid "Forward"
+msgstr "转发"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:8
+msgid "%1 joined the group"
+msgstr "%1 加入了群组"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:9
+msgid "%1 added %2"
+msgstr "%1 添加了 %2"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:10
+msgid "Unknown joined group"
+msgstr "未知用户加入了群组"
+
+#: ../app/qml/delegates/MessageChatAddMembersItem.qml:32
+msgid "%1 user(s)"
+msgid_plural ""
+msgstr[0] "%1 位用户"
+
+#: ../app/qml/delegates/MessageChatChangePhoto.qml:32
+msgid "Channel photo has been changed:"
+msgstr "频道图片已被更改："
+
+#: ../app/qml/delegates/MessageChatChangePhoto.qml:33
+msgid "%1 changed the chat photo:"
+msgstr "%1 更改了聊天图片："
+
+#: ../app/qml/delegates/MessageChatChangeTitle.qml:6
+msgid "Channel title has been changed to <b>%1</b>"
+msgstr "频道标题已改为 <b>%1</b>"
+
+#: ../app/qml/delegates/MessageChatChangeTitle.qml:7
+msgid "%1 changed the chat title to <b>%2</b>"
+msgstr "%1 将聊天标题改为 <b>%2</b>"
+
+#: ../app/qml/delegates/MessageChatDeleteMember.qml:6
+msgid "%1 left the group"
+msgstr "%1 离开了群组"
+
+#. TRANSLATORS: Notification message saying: person A removed person B (from a group)
+#: ../app/qml/delegates/MessageChatDeleteMember.qml:7
+#: ../push/pushhelper.cpp:238
+msgid "%1 removed %2"
+msgstr "%1 移除了 %2"
+
+#: ../app/qml/delegates/MessageChatDeletePhoto.qml:6
+msgid "Channel photo has been removed"
+msgstr "频道图片已被移除"
+
+#: ../app/qml/delegates/MessageChatDeletePhoto.qml:7
+msgid "%1 deleted the chat photo"
+msgstr "%1 移除了聊天图片"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:14
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 天"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:17
+msgid "%1 month"
+msgid_plural "%1 months"
+msgstr[0] "%1 月"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:20
+msgid "%1 year"
+msgid_plural "%1 years"
+msgstr[0] "%1 年"
+
+#: ../app/qml/delegates/MessageChatSetMessageAutodeleteTime.qml:25
+msgid "Auto-delete timer was set to <b>%1</b>"
+msgstr "自动删除计时器已被设置为 <b>%1</b>"
+
+#: ../app/qml/delegates/MessageChatUpgradeFrom.qml:4
+#: ../app/qml/delegates/MessageChatUpgradeTo.qml:4
+msgid "Group has been upgraded to Supergroup"
+msgstr "群组已被升级为超级群组"
+
+#: ../app/qml/delegates/MessageContactRegistered.qml:5
+msgid "%1 has joined Telegram!"
+msgstr "%1 已经加入 Telegram！"
+
+#: ../app/qml/delegates/MessageContentBase.qml:41
+msgid "Forwarded from %1"
+msgstr "从 %1 转发"
+
+#. TRANSLATORS: This is the duration of a phone call in hours:minutes:seconds format
+#: ../app/qml/delegates/MessageContentCall.qml:62
+msgid "Duration: %1:%2:%3"
+msgstr "时长：%1:%2:%3"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:51
+msgid "Final result"
+msgstr "最终结果"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:53
+msgid "Anonymous Poll"
+msgstr "匿名投票"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:155
+msgid "Reset vote"
+msgstr "重置投票"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:155
+msgid "Vote!"
+msgstr "投票！"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:166
+msgid "%1 vote"
+msgid_plural "%1 votes"
+msgstr[0] "%1 票"
+
+#: ../app/qml/delegates/MessageContentPoll.qml:166
+msgid "No votes yet"
+msgstr "还没有投票"
+
+#: ../app/qml/delegates/MessageContentVoiceNote.qml:56
+msgid "Voice note"
+msgstr "语音笔记"
+
+#: ../app/qml/delegates/MessageDateItem.qml:4
+msgid "Some date missing"
+msgstr "缺失一些日期"
+
+#: ../app/qml/delegates/MessageJoinByLink.qml:5
+msgid "%1 joined by invite link"
+msgstr "%1 已通过邀请链接加入"
+
+#: ../app/qml/delegates/MessagePinMessage.qml:6
+#: ../app/qml/delegates/MessagePinMessage.qml:7 ../push/pushhelper.cpp:301
+msgid "%1 pinned a message"
+msgstr "%1 固定了一条消息"
+
+#: ../app/qml/delegates/MessageScreenshotTaken.qml:4
+msgid "A screenshot has been taken"
+msgstr "已截图"
+
+#: ../app/qml/delegates/MessageUnavailable.qml:11
+msgid "Message Unavailable..."
+msgstr "消息不可用..."
+
+#: ../app/qml/delegates/MessageUnreadLabelItem.qml:4
+msgid "Missing label..."
+msgstr "缺少标签..."
+
+#: ../app/qml/delegates/MessageUnsupported.qml:4
+#: ../libs/qtdlib/messages/content/qtdmessageunsupported.cpp:13
+msgid "Unsupported message"
+msgstr "不支持的消息"
+
+#: ../app/qml/delegates/NotImplementedYet.qml:12
+msgid "Unknown message type, see logfile for details..."
+msgstr "未知消息类型，查看日志文件获取详情..."
+
+#: ../app/qml/middleware/ChatMiddleware.qml:107
+msgid "Are you sure you want to clear the history?"
+msgstr "您确定要清除历史记录吗？"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:108
+#: ../app/qml/pages/ChatListPage.qml:265
+msgid "Clear history"
+msgstr "清除历史记录"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:119
+msgid "Are you sure you want to leave this chat?"
+msgstr "您确定要离开此聊天吗？"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:120
+msgid "Leave"
+msgstr "离开"
+
+#: ../app/qml/middleware/ChatMiddleware.qml:136
+msgid "Join group"
+msgstr "加入群组"
+
+#: ../app/qml/middleware/ErrorsMiddleware.qml:19
+msgid "Close"
+msgstr "关闭"
+
+#: ../app/qml/middleware/SettingsMiddleware.qml:17
+msgid "Are you sure you want to delete this proxy server?"
+msgstr "您确定要删除这个代理服务器吗？"
+
+#: ../app/qml/pages/AboutPage.qml:13 ../app/qml/pages/ChatListPage.qml:182
+msgid "About"
+msgstr "关于"
+
+#. TRANSLATORS: Application name.
+#: ../app/qml/pages/AboutPage.qml:65 ../push/pushhelper.cpp:114
+#: teleports.desktop.in.h:1
+msgid "TELEports"
+msgstr "TELEports"
+
+#: ../app/qml/pages/AboutPage.qml:71
+msgid "Version %1"
+msgstr "版本 %1"
+
+#: ../app/qml/pages/AboutPage.qml:73
+msgid " (git# %1)"
+msgstr " (git# %1)"
+
+#: ../app/qml/pages/AboutPage.qml:92
+msgid "Get the source"
+msgstr "获取源代码"
+
+#: ../app/qml/pages/AboutPage.qml:93
+msgid "Report issues"
+msgstr "报告问题"
+
+#: ../app/qml/pages/AboutPage.qml:94
+msgid "Help translate"
+msgstr "帮助翻译"
+
+#: ../app/qml/pages/ChatInfoPage.qml:21
+msgid "Group Details"
+msgstr "群组详情"
+
+#: ../app/qml/pages/ChatInfoPage.qml:21
+msgid "Profile"
+msgstr "个人资料"
+
+#: ../app/qml/pages/ChatInfoPage.qml:40
+msgid "Send message"
+msgstr "发送信息"
+
+#: ../app/qml/pages/ChatInfoPage.qml:60
+msgid "Edit user data and press Save"
+msgstr "编辑用户资料，然后按下“保存”"
+
+#: ../app/qml/pages/ChatInfoPage.qml:62
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:45
+msgid "Save"
+msgstr "保存"
+
+#: ../app/qml/pages/ChatInfoPage.qml:70
+msgid "Hidden Number"
+msgstr "隐藏号码"
+
+#: ../app/qml/pages/ChatInfoPage.qml:80 ../app/qml/pages/UserListPage.qml:75
+msgid "First name"
+msgstr "名字"
+
+#: ../app/qml/pages/ChatInfoPage.qml:89 ../app/qml/pages/UserListPage.qml:83
+msgid "Last name"
+msgstr "姓氏"
+
+#: ../app/qml/pages/ChatInfoPage.qml:128
+msgid "Notifications"
+msgstr "通知"
+
+#: ../app/qml/pages/ChatInfoPage.qml:157
+msgid "%1 group in common"
+msgid_plural "%1 groups in common"
+msgstr[0] "%1 个共有群组"
+
+#: ../app/qml/pages/ChatInfoPage.qml:182
+#: ../app/qml/pages/SecretChatKeyHashPage.qml:15
+msgid "Encryption Key"
+msgstr "加密密钥"
+
+#: ../app/qml/pages/ChatInfoPage.qml:200
+msgid "Set self-destruct timer"
+msgstr "设置自毁定时器"
+
+#: ../app/qml/pages/ChatListPage.qml:42 ../app/qml/pages/ChatListPage.qml:138
+#: ../app/qml/pages/SettingsPage.qml:22
+msgid "Settings"
+msgstr "设置"
+
+#: ../app/qml/pages/ChatListPage.qml:65
+msgid "Search"
+msgstr "搜索"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "All"
+msgstr "全部"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Archived"
+msgstr "已归档"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Personal"
+msgstr "个人"
+
+#: ../app/qml/pages/ChatListPage.qml:114
+msgid "Unread"
+msgstr "未读"
+
+#: ../app/qml/pages/ChatListPage.qml:128 ../libs/qtdlib/chat/qtdchat.cpp:83
+msgid "Saved Messages"
+msgstr "已保存消息"
+
+#: ../app/qml/pages/ChatListPage.qml:133 ../app/qml/pages/UserListPage.qml:19
+msgid "Contacts"
+msgstr "通讯录"
+
+#: ../app/qml/pages/ChatListPage.qml:152
+msgid "System"
+msgstr "系统"
+
+#: ../app/qml/pages/ChatListPage.qml:161
+msgid "Dark"
+msgstr "深色"
+
+#: ../app/qml/pages/ChatListPage.qml:170
+msgid "Light"
+msgstr "浅色"
+
+#: ../app/qml/pages/ChatListPage.qml:207
+msgid "Select destination:"
+msgstr "选择目标："
+
+#: ../app/qml/pages/ChatListPage.qml:208
+msgid "or cancel the operation"
+msgstr "或取消操作"
+
+#: ../app/qml/pages/ChatListPage.qml:260
+msgid "Leave chat"
+msgstr "离开聊天"
+
+#: ../app/qml/pages/ChatListPage.qml:276 ../app/qml/pages/UserListPage.qml:131
+msgid "Info"
+msgstr "信息"
+
+#: ../app/qml/pages/ChatListPage.qml:281
+msgid "Un/pin"
+msgstr "固定/取消固定"
+
+#: ../app/qml/pages/ChatListPage.qml:504
+msgid "Do you want to forward the selected messages to %1?"
+msgstr "要将所选消息转发给 %1 吗？"
+
+#: ../app/qml/pages/ChatListPage.qml:527
+msgid "Do you want to send the imported text to %1?"
+msgstr "您要将导入的文本发送给 %1 吗？"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:28
+msgid "Connecting"
+msgstr "连接中"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:26
+msgid "Offline"
+msgstr "离线"
+
+#: ../app/qml/pages/ConnectivityPage.qml:24
+#: ../app/qml/pages/ConnectivityPage.qml:30
+#: ../libs/qtdlib/user/qtduserstatus.cpp:78
+msgid "Online"
+msgstr "在线"
+
+#: ../app/qml/pages/ConnectivityPage.qml:27
+msgid "Connecting To Proxy"
+msgstr "正在连接到代理"
+
+#: ../app/qml/pages/ConnectivityPage.qml:29
+msgid "Updating"
+msgstr "正在更新"
+
+#: ../app/qml/pages/ConnectivityPage.qml:35
+msgid "Connectivity"
+msgstr "连接"
+
+#: ../app/qml/pages/ConnectivityPage.qml:73
+msgid "Telegram connectivity status:"
+msgstr "Telegram 连接状态："
+
+#: ../app/qml/pages/ConnectivityPage.qml:80
+msgid "Ubuntu Touch connectivity status:"
+msgstr "Ubuntu Touch 连接状态："
+
+#: ../app/qml/pages/ConnectivityPage.qml:87
+msgid "Ubuntu Touch bandwith limited"
+msgstr "Ubuntu Touch 频带受限"
+
+#: ../app/qml/pages/ConnectivityPage.qml:87
+msgid "Ubuntu Touch bandwith not limited"
+msgstr "Ubuntu Touch 频带不受限"
+
+#: ../app/qml/pages/LogoutPage.qml:14
+msgid "Good bye!"
+msgstr "再见！"
+
+#: ../app/qml/pages/LogoutPage.qml:27
+msgid "Disconnecting..."
+msgstr "断开连接中..."
+
+#: ../app/qml/pages/LogoutPage.qml:37
+msgid ""
+"The app will close automatically when the logout process ends.\n"
+"Please, don't close it manually!"
+msgstr ""
+"当登出进程结束时，应用会自动关闭。\n"
+"请不要手动关闭它！"
+
+#: ../app/qml/pages/MessageListPage.qml:39
+msgid ", %1 online"
+msgid_plural ", %1 online"
+msgstr[0] "，%1 人在线"
+
+#: ../app/qml/pages/MessageListPage.qml:101
+msgid "Telegram"
+msgstr "Telegram"
+
+#: ../app/qml/pages/MessageListPage.qml:226
+msgid "Unknown contact"
+msgstr "未知联系人"
+
+#: ../app/qml/pages/MessageListPage.qml:228
+msgid "You were added to an unknown chat"
+msgstr "您已被添加到未知聊天"
+
+#: ../app/qml/pages/MessageListPage.qml:242
+msgid "Add to contacts"
+msgstr "添加到联系人"
+
+#: ../app/qml/pages/MessageListPage.qml:244
+msgid "Report spam and leave"
+msgstr "举报垃圾消息并离开"
+
+#: ../app/qml/pages/MessageListPage.qml:360
+msgid "You are not allowed to post in this channel"
+msgstr "您无权在此频道中发帖"
+
+#: ../app/qml/pages/MessageListPage.qml:364
+msgid "Waiting for other party to accept the secret chat..."
+msgstr "正在等待对方接受私密聊天..."
+
+#: ../app/qml/pages/MessageListPage.qml:366
+msgid "Secret chat has been closed"
+msgstr "私密聊天已被关闭"
+
+#: ../app/qml/pages/MessageListPage.qml:374
+msgid "You left this group"
+msgstr "您离开了此群组"
+
+#: ../app/qml/pages/MessageListPage.qml:377
+msgid "You have been banned"
+msgstr "您已被封禁"
+
+#: ../app/qml/pages/MessageListPage.qml:380
+msgid "You are not allowed to post in this group"
+msgstr "您无权在此群组发帖"
+
+#: ../app/qml/pages/MessageListPage.qml:384
+msgid "You can't write here. Reason unkown"
+msgstr "您无法在此处输入。原因未知"
+
+#: ../app/qml/pages/MessageListPage.qml:407
+msgid "Join"
+msgstr "加入"
+
+#: ../app/qml/pages/MessageListPage.qml:533
+msgid "Type a message..."
+msgstr "输入消息..."
+
+#: ../app/qml/pages/MessageListPage.qml:767
+msgid "<<< Swipe to cancel"
+msgstr "<<< 滑动以取消"
+
+#: ../app/qml/pages/MessageListPage.qml:877
+msgid "Do you want to share your location with %1?"
+msgstr "您要与 %1 共享您的位置吗？"
+
+#: ../app/qml/pages/MessageListPage.qml:890
+msgid "Requesting location from OS..."
+msgstr "正在向系统请求位置..."
+
+#: ../app/qml/pages/MessageListPage.qml:985
+msgid "Copied message link to clipboard!"
+msgstr "消息链接已复制到剪贴板！"
+
+#: ../app/qml/pages/PickerPage.qml:16
+msgid "Content Picker"
+msgstr "内容选择器"
+
+#: ../app/qml/pages/PreviewPage.qml:55
+msgid "Share"
+msgstr "分享"
+
+#: ../app/qml/pages/ProxyManagementPage.qml:19
+#: ../app/qml/pages/SettingsPage.qml:101
+msgid "Proxy Management"
+msgstr "代理管理"
+
+#: ../app/qml/pages/ProxyManagementPage.qml:38
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:27
+msgid "Add proxy server"
+msgstr "添加代理服务器"
+
+#: ../app/qml/pages/ProxyManagementPage.qml:115
+msgid "Port: %1 Type: %2 Ping: %3ms"
+msgstr "端口: %1 类型: %2 Ping: %3ms"
+
+#: ../app/qml/pages/SecretChatKeyHashPage.qml:66
+msgid ""
+"Check the image or the text. If they match with the ones on <b>%1</b>'s "
+"device, end-to-end cryptography is granted."
+msgstr "检查图像或文本。如果与 <b>%1</b> 设备上的一致，则端到端加密可用。"
+
+#: ../app/qml/pages/SettingsPage.qml:69 ../app/qml/pages/SettingsPage.qml:183
+msgid "Logout"
+msgstr "登出"
+
+#: ../app/qml/pages/SettingsPage.qml:85
+msgid "Delete account"
+msgstr "删除账户"
+
+#: ../app/qml/pages/SettingsPage.qml:117
+msgid "Connectivity status"
+msgstr "连接状态"
+
+#: ../app/qml/pages/SettingsPage.qml:134
+msgid "Toggle message status indicators"
+msgstr "切换消息状态指示器"
+
+#: ../app/qml/pages/SettingsPage.qml:161
+msgid "Navigate through replied messages"
+msgstr ""
+
+#: ../app/qml/pages/SettingsPage.qml:181
+msgid ""
+"Warning: Logging out will delete all local data from this device, including "
+"secret chats. Are you still sure you want to log out?"
+msgstr ""
+"警告：登出时会从此设备删除所有本地数据，包括私密聊天。您仍然确定要登出吗？"
+
+#: ../app/qml/pages/SettingsPage.qml:191
+msgid ""
+"Warning: Deleting the account will delete all the data you ever received or "
+"sent using telegram except for data you have explicitly saved outside the "
+"telegram cloud. Are you really really sure you want to delete your telegram "
+"account?"
+msgstr ""
+"警告：删除账户时会删除您使用 Telegram 接收或发送的所有数据，明确保存在 "
+"Telegram 云外部的数据除外。您真的确定要删除您的 Telegram 账户吗？"
+
+#: ../app/qml/pages/UserListPage.qml:38
+msgid "Add Contact"
+msgstr "添加联系人"
+
+#: ../app/qml/pages/UserListPage.qml:43
+msgid "Import Contact"
+msgstr "导入联系人"
+
+#: ../app/qml/pages/UserListPage.qml:55
+msgid "The contact will be added. First and last name are optional"
+msgstr "将添加此联系人。姓氏与名字可选"
+
+#: ../app/qml/pages/UserListPage.qml:57
+msgid "Add"
+msgstr "加入"
+
+#: ../app/qml/pages/UserListPage.qml:67
+msgid "Phone no"
+msgstr "电话号码"
+
+#: ../app/qml/pages/UserListPage.qml:136
+msgid "Secret Chat"
+msgstr "私密聊天"
+
+#: ../app/qml/pages/UserListPage.qml:213
+msgid "The contact will be deleted. Are you sure?"
+msgstr "此联系人将被删除。您确定吗？"
+
+#: ../app/qml/pages/WaitCodePage.qml:20
+msgid "Enter Code"
+msgstr "输入代码"
+
+#: ../app/qml/pages/WaitCodePage.qml:41
+msgid "A code was sent via Telegram to your other devices."
+msgstr "已通过 Telegram 将代码发送到您的其他设备。"
+
+#: ../app/qml/pages/WaitCodePage.qml:47
+msgid "A code was sent via text message to your phone."
+msgstr "已通过短信将代码发送到您的手机。"
+
+#: ../app/qml/pages/WaitCodePage.qml:53
+msgid "Please enter it here:"
+msgstr "请在此处输入："
+
+#: ../app/qml/pages/WaitCodePage.qml:59
+msgid "Code"
+msgstr "代码"
+
+#: ../app/qml/pages/WaitCodePage.qml:73
+msgid ""
+"If you do not receive any code after %1 seconds press retry to receive the "
+"code via an alternate method"
+msgstr "如果您在 %1 秒后还未收到代码，请使用别的方法重新接收代码"
+
+#: ../app/qml/pages/WaitCodePage.qml:78
+msgid "Resend code..."
+msgstr "重发代码..."
+
+#: ../app/qml/pages/WaitCodePage.qml:88
+msgid ""
+"Note: If this is your first signup to Telegram you must register your "
+"account via an official mobile App (Android or iOS) first."
+msgstr ""
+"注意：如果您首次注册 Telegram，您必须先使用官方移动应用（Android 或 iOS）注册"
+"账户。"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:18
+msgid "Enter Password"
+msgstr "输入密码"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:39
+msgid "Password"
+msgstr "密码"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:57
+msgid "Password hint: %1"
+msgstr "密码提示：%1"
+
+#: ../app/qml/pages/WaitPasswordPage.qml:62
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:98
+#: ../app/qml/pages/WaitRegistrationPage.qml:57
+msgid "Next..."
+msgstr "下一步..."
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:17
+msgid "Enter Phone Number"
+msgstr "输入电话号码"
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:54
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:64
+msgid "Phone number"
+msgstr "电话号码"
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:88
+msgid "Please confirm your country code and enter your phone number."
+msgstr "请确认您的国家或地区码，并输入手机号码。"
+
+#: ../app/qml/pages/WaitPhoneNumberPage.qml:92
+msgid "Manage Proxy Servers..."
+msgstr "管理代理服务器..."
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:17
+msgid "Enter your Name"
+msgstr "输入您的名字"
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:38
+msgid "First Name"
+msgstr "名"
+
+#: ../app/qml/pages/WaitRegistrationPage.qml:44
+msgid "Last Name"
+msgstr "姓"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:27
+msgid "Edit proxy server"
+msgstr "编辑代理服务器"
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:82
+msgid "Server:"
+msgstr "服务器："
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:88
+msgid "Port:"
+msgstr "端口："
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:93
+msgid "Type:"
+msgstr "类型："
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:99
+msgid "Username:"
+msgstr "用户名："
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:105
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:171
+msgid "Password:"
+msgstr "密码："
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:111
+msgid "Secret:"
+msgstr "机密："
+
+#: ../app/qml/pages/settings/AddOrEditProxyPage.qml:117
+msgid "HTTP only:"
+msgstr "仅 HTTP："
+
+#: ../app/qml/stores/AuthStateStore.qml:53
+msgid ""
+"Unsupported code verification was requested by the server. Please register "
+"your account via an official mobile App (Android or iOS) first and try again."
+msgstr ""
+"服务器请求的代码验证不受支持。请先用官方移动应用（Android 或 iOS）注册账户，"
+"然后再试。"
+
+#: ../app/qml/stores/AuthStateStore.qml:66
+msgid "Invalid phone number!"
+msgstr "电话号码无效！"
+
+#: ../app/qml/stores/AuthStateStore.qml:73
+msgid "Invalid code!"
+msgstr "验证码无效！"
+
+#: ../app/qml/stores/AuthStateStore.qml:80
+msgid "Invalid password!"
+msgstr "密码无效！"
+
+#: ../app/qml/stores/AuthStateStore.qml:100
+msgid "Auth code not expected right now"
+msgstr "现在无需验证码"
+
+#: ../app/qml/stores/AuthStateStore.qml:106
+msgid "Oops! Internal error."
+msgstr "不好！发生了内部错误。"
+
+#: ../app/qml/stores/AuthStateStore.qml:132
+msgid "Registration not expected right now"
+msgstr "现在无需注册"
+
+#: ../app/qml/stores/ChatStateStore.qml:44
+#: ../app/qml/stores/ChatStateStore.qml:50
+#: ../app/qml/stores/SettingsStore.qml:28
+msgid "Error"
+msgstr "错误"
+
+#: ../app/qml/stores/ChatStateStore.qml:44
+msgid "No valid location received after 180 seconds!"
+msgstr "180 秒后未接收到有效位置！"
+
+#: ../app/qml/stores/ChatStateStore.qml:50
+msgid "Username <b>@%1</b> not found"
+msgstr "找不到用户名 <b>@%1</b>"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:12
+msgid "Push Registration Failed"
+msgstr "注册信息推送失败"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:23
+msgid "No Ubuntu One"
+msgstr "没有 Ubuntu One"
+
+#: ../app/qml/stores/NotificationsStateStore.qml:24
+msgid "Please connect to Ubuntu One to receive push notifications."
+msgstr "请连接到 Ubuntu One 以接收推送通知。"
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:86 ../libs/qtdlib/user/qtduser.cpp:208
+msgid "Deleted User"
+msgstr "已删除用户"
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:349
+msgid "Draft:"
+msgstr "草稿："
+
+#: ../libs/qtdlib/chat/qtdchat.cpp:360
+msgid "Me"
+msgstr "我"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:7
+msgid "Doing something..."
+msgstr "工作中..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:8
+msgid "is doing something..."
+msgstr "正在做些什么..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:9
+msgid "are doing something..."
+msgstr "正在做些什么..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:37
+msgid "Choosing a contact..."
+msgstr "正选择联系人..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:38
+msgid "is choosing a contact..."
+msgstr "在选择联系人..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:39
+msgid "are choosing a contact..."
+msgstr "在选择联系人..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:46
+msgid "Recording a video..."
+msgstr "正录制视频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:47
+msgid "is recording a video..."
+msgstr "在录制视频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:48
+msgid "are recording a video..."
+msgstr "在录制视频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:55
+msgid "Choosing a location..."
+msgstr "正选择位置..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:56
+msgid "is choosing a location..."
+msgstr "在选择位置..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:57
+msgid "are choosing a location..."
+msgstr "在选择位置..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:64
+msgid "Recording a video note..."
+msgstr "正录制视频笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:65
+msgid "is recording a video note..."
+msgstr "在录制视频笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:66
+msgid "are recording a video note..."
+msgstr "在录制视频笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:73
+msgid "Recording a voice note..."
+msgstr "正录制语音笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:74
+msgid "is recording a voice note..."
+msgstr "在录制语音笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:75
+msgid "are recording a voice note..."
+msgstr "在录制语音笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:82
+msgid "Starting a game..."
+msgstr "正启动游戏..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:83
+msgid "is starting a game..."
+msgstr "在启动游戏..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:84
+msgid "are starting a game..."
+msgstr "在启动游戏..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:91
+msgid "Typing..."
+msgstr "正输入..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:92
+msgid "is typing..."
+msgstr "正在输入..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:93
+msgid "are typing..."
+msgstr "正在输入…"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:100
+msgid "Uploading a document..."
+msgstr "正在上传文档..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:101
+msgid "is uploading a document..."
+msgstr "正在上传文档..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:102
+msgid "are uploading a document..."
+msgstr "正在上传文档..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:109
+msgid "Uploading a photo..."
+msgstr "正上传照片..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:110
+msgid "is uploading a photo..."
+msgstr "正在上传照片..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:111
+msgid "are uploading a photo..."
+msgstr "正在上传照片..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:118
+msgid "Uploading a video..."
+msgstr "正上传视频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:119
+msgid "is uploading a video..."
+msgstr "正在上传视频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:120
+msgid "are uploading a video..."
+msgstr "正在上传视频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:127
+msgid "Uploading a video note..."
+msgstr "正上传视频笔记…"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:128
+msgid "is uploading a video note..."
+msgstr "在上传视频笔记…"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:129
+msgid "are uploading a video note..."
+msgstr "在上传视频笔记…"
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:136
+msgid "Uploading a voice note..."
+msgstr "正上传语音笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:137
+msgid "is uploading a voice note..."
+msgstr "正在上传语音笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:138
+msgid "are uploading a voice note..."
+msgstr "正在上传语音笔记..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:145
+msgid "Choosing a sticker..."
+msgstr "正选择贴纸..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:146
+msgid "is choosing a sticker..."
+msgstr "正在选择贴纸..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:147
+msgid "are choosing a sticker..."
+msgstr "正在选择贴纸..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:154
+msgid "Recording audio..."
+msgstr "正录制音频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:155
+msgid "is recording audio..."
+msgstr "正在录制音频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:156
+msgid "are recording audio..."
+msgstr "正在录制音频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:163
+msgid "Uploading audio..."
+msgstr "正上传音频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:164
+msgid "is uploading audio..."
+msgstr "正在上传音频..."
+
+#: ../libs/qtdlib/chat/qtdchataction.cpp:165
+msgid "are uploading audio..."
+msgstr "正在上传音频..."
+
+#: ../libs/qtdlib/chat/qtdchatlistmodel.cpp:443
+msgid "Maximum number of pinned chat exceeded"
+msgstr "已固定聊天达到最大值"
+
+#: ../libs/qtdlib/messages/content/qtdmessageanimation.cpp:27
+msgid "GIF"
+msgstr "GIF"
+
+#: ../libs/qtdlib/messages/content/qtdmessageanimation.cpp:27
+msgid "GIF,"
+msgstr "GIF,"
+
+#: ../libs/qtdlib/messages/content/qtdmessagebasicgroupchatcreate.cpp:24
+#: ../libs/qtdlib/messages/content/qtdmessagesupergroupchatcreate.cpp:23
+msgid "created this group"
+msgstr "创建了此群组"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:68
+msgid "Call Declined"
+msgstr "通话已拒绝"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:71
+msgid "Call Disconnected"
+msgstr "通话连接断开"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:74
+msgid "Call Ended"
+msgstr "通话结束"
+
+#. TRANSLATORS: This is a duration in hours:minutes:seconds format - only arrange the order, do not translate!
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:78
+msgid "%1:%2:%3"
+msgstr "%1:%2:%3"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:79
+msgid "Outgoing Call (%1)"
+msgstr "拨出通话 (%1)"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:80
+msgid "Incoming Call (%1)"
+msgstr "呼入通话 (%1)"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:83
+msgid "Cancelled Call"
+msgstr "已取消通话"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:83
+msgid "Missed Call"
+msgstr "未接来电"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecall.cpp:86
+msgid "Call"
+msgstr "通话"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechataddmembers.cpp:34
+msgid "added one or more members"
+msgstr "添加了若干成员"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechataddmembers.cpp:34
+msgid "joined the group"
+msgstr "加入了群组"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatchangephoto.cpp:21
+msgid "changed the chat photo"
+msgstr "更改了聊天照片"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatchangetitle.cpp:19
+msgid "changed the chat title"
+msgstr "更改了聊天标题"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletemember.cpp:32
+msgid "left the group"
+msgstr "离开了群组"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletemember.cpp:32
+msgid "removed a member"
+msgstr "移除了成员"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatdeletephoto.cpp:8
+msgid "deleted the chat photo"
+msgstr "删除了聊天照片"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatjoinbylink.cpp:8
+msgid "joined the group via the public link"
+msgstr "通过公共链接加入了群组"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatsetmessageautodeletetime.cpp:67
+msgid "Self-destruct timer was set"
+msgstr "已设置自毁定时器"
+
+#: ../libs/qtdlib/messages/content/qtdmessagechatupgradefrom.cpp:30
+#: ../libs/qtdlib/messages/content/qtdmessagechatupgradeto.cpp:30
+msgid "upgraded to supergroup"
+msgstr "升级到了超级群组"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecontact.cpp:19
+msgid "Contact"
+msgstr "联系人"
+
+#: ../libs/qtdlib/messages/content/qtdmessagecontactregistered.cpp:9
+msgid "has joined Telegram!"
+msgstr "加入了 Telegram！"
+
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:19
+msgid "Today"
+msgstr "今天"
+
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:21
+msgid "Yesterday"
+msgstr "昨天"
+
+#. TRANSLATORS: String in date separator label. For messages within a week: full weekday name
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:24
+msgid "dddd"
+msgstr "dddd"
+
+#. TRANSLATORS: String in date separator label. For messages of pas years: date number, month name and year
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:27
+msgid "dd MMMM yyyy"
+msgstr "yyyy MMMM dd"
+
+#. TRANSLATORS: String in date separator label. For messages older that a week but within the current year: date number and month name
+#: ../libs/qtdlib/messages/content/qtdmessagedate.cpp:30
+msgid "dd MMMM"
+msgstr "MMMM dd"
+
+#: ../libs/qtdlib/messages/content/qtdmessagelocation.cpp:20
+msgid "Location"
+msgstr "位置"
+
+#: ../libs/qtdlib/messages/content/qtdmessagephoto.cpp:28
+msgid "Photo"
+msgstr "照片"
+
+#: ../libs/qtdlib/messages/content/qtdmessagephoto.cpp:28
+msgid "Photo,"
+msgstr "照片，"
+
+#: ../libs/qtdlib/messages/content/qtdmessagepinmessage.cpp:20
+msgid "Pinned Message"
+msgstr "已固定消息"
+
+#: ../libs/qtdlib/messages/content/qtdmessagesticker.cpp:33
+msgid "Sticker"
+msgstr "贴纸"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideo.cpp:27
+msgid "Video"
+msgstr "视频"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideo.cpp:27
+msgid "Video,"
+msgstr "视频，"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevideonote.cpp:27
+msgid "Video message"
+msgstr "视频消息"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevoicenote.cpp:32
+msgid "Voice message"
+msgstr "语音消息"
+
+#: ../libs/qtdlib/messages/content/qtdmessagevoicenote.cpp:32
+msgid "Voice message,"
+msgstr "语音消息，"
+
+#: ../libs/qtdlib/messages/forwardinfo/qtdmessageforwardinfo.cpp:61
+msgid "Unknown origin"
+msgstr "未知来源"
+
+#: ../libs/qtdlib/messages/qtdmessagecontentfactory.cpp:134
+msgid "Unimplemented:"
+msgstr "未实现："
+
+#: ../libs/qtdlib/messages/qtdmessagelistmodel.cpp:260
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#: ../libs/qtdlib/user/qtduser.cpp:251
+msgid "Bot"
+msgstr "机器人"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:28
+msgid "Last seen one month ago"
+msgstr "最后在一个月前看到"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:39
+msgid "Last seen one week ago"
+msgstr "最后在一周前看到"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:55
+msgid "Last seen "
+msgstr "最后看到于 "
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:55
+msgid "dd.MM.yy hh:mm"
+msgstr "yy.MM.dd hh:mm"
+
+#: ../libs/qtdlib/user/qtduserstatus.cpp:96
+msgid "Seen recently"
+msgstr "最近看到"
+
+#: ../push/pushhelper.cpp:124
+msgid "sent you a message"
+msgstr "给您发送了消息"
+
+#: ../push/pushhelper.cpp:128
+msgid "sent you a photo"
+msgstr "给您发送了照片"
+
+#: ../push/pushhelper.cpp:132
+msgid "sent you a sticker"
+msgstr "给您发送了贴纸"
+
+#: ../push/pushhelper.cpp:136
+msgid "sent you a video"
+msgstr "给您发送了视频"
+
+#: ../push/pushhelper.cpp:140
+msgid "sent you a document"
+msgstr "给您发送了文档"
+
+#: ../push/pushhelper.cpp:144
+msgid "sent you an audio message"
+msgstr "给您发送了音频消息"
+
+#: ../push/pushhelper.cpp:148
+msgid "sent you a voice message"
+msgstr "给您发送了语音消息"
+
+#: ../push/pushhelper.cpp:152
+msgid "shared a contact with you"
+msgstr "向您分享了联系人"
+
+#: ../push/pushhelper.cpp:156
+msgid "sent you a map"
+msgstr "给您发送了地图"
+
+#: ../push/pushhelper.cpp:161
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: ../push/pushhelper.cpp:166
+msgid "%1 sent a message to the group"
+msgstr "%1 向群组发送了消息"
+
+#: ../push/pushhelper.cpp:171
+msgid "%1 sent a photo to the group"
+msgstr "%1 向群组发送了照片"
+
+#: ../push/pushhelper.cpp:176
+msgid "%1 sent a sticker to the group"
+msgstr "%1 向群组发送了贴纸"
+
+#: ../push/pushhelper.cpp:181
+msgid "%1 sent a video to the group"
+msgstr "%1 向群组发送了视频"
+
+#: ../push/pushhelper.cpp:186
+msgid "%1 sent a document to the group"
+msgstr "%1 向群组发送了文档"
+
+#: ../push/pushhelper.cpp:191
+msgid "%1 sent a voice message to the group"
+msgstr "%1 向群组发送了语音消息"
+
+#: ../push/pushhelper.cpp:196
+msgid "%1 sent a GIF to the group"
+msgstr "%1 向群组发送了 GIF"
+
+#: ../push/pushhelper.cpp:201
+msgid "%1 sent a contact to the group"
+msgstr "%1 向群组发送了联系人"
+
+#: ../push/pushhelper.cpp:206
+msgid "%1 sent a map to the group"
+msgstr "%1 向群组发送了地图"
+
+#: ../push/pushhelper.cpp:211 ../push/pushhelper.cpp:232
+msgid "%1 invited you to the group"
+msgstr "%1 邀请您加入群组"
+
+#: ../push/pushhelper.cpp:216
+msgid "%1 changed group name"
+msgstr "%1 更改了群组名称"
+
+#: ../push/pushhelper.cpp:221
+msgid "%1 changed group photo"
+msgstr "%1 更改了群组照片"
+
+#. TRANSLATORS: Notification message saying: person A invited person B (to a group)
+#: ../push/pushhelper.cpp:227
+msgid "%1 invited %2"
+msgstr "%1 邀请了 %2"
+
+#: ../push/pushhelper.cpp:243
+msgid "%1 removed you from the group"
+msgstr "%1 将您移出了群组"
+
+#: ../push/pushhelper.cpp:248
+msgid "%1 has left the group"
+msgstr "%1 已离开群组"
+
+#: ../push/pushhelper.cpp:253
+msgid "%1 has returned to the group"
+msgstr "%1 回到了群组"
+
+#. TRANSLATORS: This format string tells location, like: @ McDonals, New York
+#: ../push/pushhelper.cpp:258
+msgid "@ %1"
+msgstr "@ %1"
+
+#. TRANSLATORS: This format string tells who has checked in (in a geographical location).
+#: ../push/pushhelper.cpp:260
+msgid "%1 has checked-in"
+msgstr "%1 签到了"
+
+#. TRANSLATORS: This format string tells who has just joined Telegram.
+#: ../push/pushhelper.cpp:266
+msgid "%1 joined Telegram!"
+msgstr "%1 加入了 Telegram！"
+
+#: ../push/pushhelper.cpp:271 ../push/pushhelper.cpp:277
+msgid "New login from unrecognized device"
+msgstr "未识别设备有新登录活动"
+
+#. TRANSLATORS: This format string indicates new login of: (device name) at (location).
+#: ../push/pushhelper.cpp:276
+msgid "%1 @ %2"
+msgstr "%1 @ %2"
+
+#: ../push/pushhelper.cpp:281
+msgid "updated profile photo"
+msgstr "更新了个人资料照片"
+
+#: ../push/pushhelper.cpp:286 ../push/pushhelper.cpp:291
+#: ../push/pushhelper.cpp:296
+msgid "You have a new message"
+msgstr "您有新消息"
+
+#~ msgid "Do you want to attach this in compressed or uncompressed quality?"
+#~ msgstr "您想以压缩还是未压缩质量附上此文件？"
+
+#~ msgid "Compressed picture"
+#~ msgstr "压缩图片"
+
+#~ msgid "Uncompressed picture"
+#~ msgstr "未压缩图片"
+
+#~ msgid "Do you want to send the imported files to %1?"
+#~ msgstr "您要将导入的文件发送给 %1 吗？"
+
+#, fuzzy
+#~| msgid "Select destination or cancel..."
+#~ msgid "Select destination or cancel..."
+#~ msgstr "選擇目的地或者取消..."
+
+#~ msgid "Night mode"
+#~ msgstr "夜間模式"
+
+#, fuzzy
+#~| msgid "%1 pinned a message"
+#~ msgid "3 pinned messages"
+#~ msgstr "%1 釘選了一則訊息"
+
+#, fuzzy
+#~| msgid "%1 pinned a message"
+#~ msgid "Open pinned messages list"
+#~ msgstr "%1 釘選了一則訊息"
+
+#~ msgid "File: "
+#~ msgstr "檔案： "
+
+#~ msgid "Message time-to-live has been set to <b>%1</b> seconds"
+#~ msgstr "訊息保留時間已經設置為 <b>%1</b> 秒"
+
+#~ msgid "message TTL has been changed"
+#~ msgstr "訊息 TTL 已變更"
+
+#~ msgid "Animated stickers not supported yet :("
+#~ msgstr "尚不支援動態貼圖 :("
+
+#~ msgid "not available"
+#~ msgstr "無法使用"
+
+#~ msgid "Incorrect auth code length."
+#~ msgstr "驗證碼長度不正確。"
+
+#~ msgid "Phone call"
+#~ msgstr "電話"
+
+#~ msgid "sent an audio message"
+#~ msgstr "發送了一則音訊訊息"
+
+#~ msgid "sent a photo"
+#~ msgstr "發送了一張照片"
+
+#~ msgid "sent a video"
+#~ msgstr "發送了一段影片"
+
+#~ msgid "joined by invite link"
+#~ msgstr "已透過邀請連結加入"
+
+#~ msgid "Image"
+#~ msgstr "圖片"
+
+#~ msgid "File"
+#~ msgstr "檔案"
+
+#, fuzzy
+#~| msgid "sent an unknown message"
+#~ msgid "sent an unknown message: %1"
+#~ msgstr "發送了一封未知訊息"
+
+#~ msgid "Status:"
+#~ msgstr "狀態："
+
+#, fuzzy
+#~| msgid "dd MMMM"
+#~ msgid "dd MM"
+#~ msgstr "MMMM dd"

@@ -1,0 +1,22 @@
+{
+    "share": [
+        "contacts",
+        "documents",
+        "ebooks",
+        "links",
+        "music",
+        "pictures",
+        "text",
+        "videos"
+    ],
+    "destination": [
+        "contacts",
+        "documents",
+        "ebooks",
+        "links",
+        "music",
+        "pictures",
+        "text",
+        "videos"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "clickable_minimum_required": "6.22.0",
+    "builder": "cmake",
+    "kill": "rlottie",
+    "qt_version": "5.12",
+    "libraries": {
+        "rlottie": {
+            "builder": "cmake",
+            "build_args": [
+                "-DCMAKE_CXX_FLAGS=-Wno-sign-compare",
+                "-DLIB_INSTALL_DIR=lib"
+            ]
+        }
+    },
+    "install_lib": [
+		"/usr/lib/${ARCH_TRIPLET}/libquazip5.so.*",
+        "${RLOTTIE_LIB_INSTALL_DIR}/lib/*so*"
+    ],
+    "dependencies_target": "libquazip5-dev",
+    "dirty": true
+}

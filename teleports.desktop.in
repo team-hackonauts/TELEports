@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=TELEports
+Exec=teleports %U
+Icon=assets/icon.svg
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
+X-Lomiri-SymbolicIcon=assets/icon.svg
+X-Lomiri-Splash-Image=assets/splash.svg
+X-Lomiri-Splash-Color=#333333

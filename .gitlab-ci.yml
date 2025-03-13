@@ -1,0 +1,279 @@
+stages:
+- deps-prepare
+- deps
+- build
+- publish
+- debug-deps
+- debug
+
+variables:
+  GIT_SUBMODULE_STRATEGY: 'recursive'
+  DOCKER_DRIVER: overlay2
+  CLICKABLE_VERSION: "8.2.0"
+  UT_VERSION: "20.04"
+  TDLIB_VERSION: "1.8.11"
+
+# https://stackoverflow.com/a/77477765
+workflow:
+  rules:
+    - if: $CI_PROJECT_NAMESPACE =~ /^ubports\//
+      variables:
+        # Use our own GitLab runner
+        RUNNER_TAG: "ubports"
+    - if: $CI_PROJECT_NAMESPACE !~ /^ubports\//
+      variables:
+        # Use shared runner if run outside our namespace
+        RUNNER_TAG: "saas-linux-small-amd64"
+
+default:
+  image: "clickable/ci-$UT_VERSION-$ARCH:$CLICKABLE_VERSION"
+
+cache: &tdlib_cache
+  key: '$CI_JOB_NAME-$TDLIB_VERSION-A'
+  untracked: true
+
+.debug: &debug
+  variables:
+    CLICKABLE_DEBUG_BUILD: "1"
+    CLICKABLE_ENV_TDLIB_DEBUG: "1"
+  when: manual
+
+.debug-app: &debug-app
+  <<: *debug
+  stage: debug
+
+.debug-deps: &debug-deps
+  <<: *debug
+  stage: debug-deps
+
+.armhf: &armhf
+  variables:
+    ARCH: "armhf"
+    ARCH_TRIPLET: "arm-linux-gnueabihf"
+
+.arm64: &arm64
+  variables:
+    ARCH: "arm64"
+    ARCH_TRIPLET: "aarch64-linux-gnu"
+
+.amd64: &amd64
+  variables:
+    ARCH: "amd64"
+    ARCH_TRIPLET: "x86_64-linux-gnu"
+
+
+tdlib-prepare:
+  <<: *amd64
+  stage: deps-prepare
+  script: 'clickable build --libs tdlib-prepare'
+  cache:
+    <<: *tdlib_cache
+    paths:
+    - "build/$ARCH_TRIPLET/tdlib-prepare"
+    - "libs/vendor/tdlib"
+  artifacts:
+    paths:
+    - "libs/vendor/tdlib"
+    expire_in: 1 week
+
+.tdlib:
+  stage: deps
+  dependencies:
+  - tdlib-prepare
+  needs:
+  - tdlib-prepare
+  script: 'clickable build --libs tdlib'
+  cache:
+    <<: *tdlib_cache
+    paths:
+    - "build/$ARCH_TRIPLET/tdlib"
+  artifacts:
+    paths:
+    - "build/$ARCH_TRIPLET/tdlib/install"
+    expire_in: 1 week
+
+.rlottie:
+  stage: deps-prepare
+  script: 'clickable build --libs rlottie'
+  artifacts:
+    paths:
+    - "build/$ARCH_TRIPLET/rlottie/install"
+    expire_in: 1 week
+
+.rlottie-qml:
+  stage: deps
+  script: 'clickable build --libs rlottie-qml'
+  artifacts:
+    paths:
+    - "build/$ARCH_TRIPLET/rlottie-qml/install"
+    expire_in: 1 week
+
+.quickflux:
+  stage: deps
+  script: 'clickable build --libs quickflux'
+  artifacts:
+    paths:
+    - "build/$ARCH_TRIPLET/quickflux/install"
+    expire_in: 1 week
+
+.teleports:
+  stage: build
+  script: 'clickable build --clean'
+  artifacts:
+    paths:
+    - "build/$ARCH_TRIPLET/app"
+    expire_in: 1 week
+
+
+tdlib-armhf:
+  <<: *armhf
+  extends: .tdlib
+
+tdlib-arm64:
+  <<: *arm64
+  extends: .tdlib
+
+tdlib-amd64:
+  <<: *amd64
+  extends: .tdlib
+
+rlottie-armhf:
+  <<: *armhf
+  extends: .rlottie
+
+rlottie-arm64:
+  <<: *arm64
+  extends: .rlottie
+
+rlottie-amd64:
+  <<: *amd64
+  extends: .rlottie
+
+rlottie-qml-armhf:
+  <<: *armhf
+  extends: .rlottie-qml
+  dependencies:
+  - rlottie-armhf
+
+rlottie-qml-arm64:
+  <<: *arm64
+  extends: .rlottie-qml
+  dependencies:
+  - rlottie-arm64
+
+rlottie-qml-amd64:
+  <<: *amd64
+  extends: .rlottie-qml
+  dependencies:
+  - rlottie-amd64
+
+quickflux-armhf:
+  <<: *armhf
+  extends: .quickflux
+
+quickflux-arm64:
+  <<: *arm64
+  extends: .quickflux
+
+quickflux-amd64:
+  <<: *amd64
+  extends: .quickflux
+
+teleports-armhf:
+  <<: *armhf
+  dependencies:
+  - tdlib-armhf
+  - quickflux-armhf
+  - rlottie-armhf
+  - rlottie-qml-armhf
+  extends: .teleports
+
+teleports-arm64:
+  <<: *arm64
+  dependencies:
+  - tdlib-arm64
+  - quickflux-arm64
+  - rlottie-arm64
+  - rlottie-qml-arm64
+  extends: .teleports
+
+teleports-amd64:
+  <<: *amd64
+  dependencies:
+  - tdlib-amd64
+  - quickflux-amd64
+  - rlottie-amd64
+  - rlottie-qml-amd64
+  extends: .teleports
+
+
+tdlib-armhf-debug:
+  <<: *debug-deps
+  extends: tdlib-armhf
+
+tdlib-arm64-debug:
+  <<: *debug-deps
+  extends: tdlib-arm64
+
+tdlib-amd64-debug:
+  <<: *debug-deps
+  extends: tdlib-amd64
+
+
+teleports-armhf-debug:
+  <<: *debug-app
+  extends: teleports-armhf
+
+teleports-arm64-debug:
+  <<: *debug-app
+  extends: teleports-arm64
+
+teleports-amd64-debug:
+  <<: *debug-app
+  extends: teleports-amd64
+
+
+teleports-armhf-tdlib-debug:
+  extends: teleports-armhf-debug
+  dependencies:
+  - tdlib-armhf-debug
+  - quickflux-armhf
+  - rlottie-armhf
+  - rlottie-qml-armhf
+
+teleports-arm64-tdlib-debug:
+  extends: teleports-arm64-debug
+  dependencies:
+  - tdlib-arm64-debug
+  - quickflux-arm64
+  - rlottie-arm64
+  - rlottie-qml-arm64
+
+teleports-amd64-tdlib-debug:
+  extends: teleports-amd64-debug
+  dependencies:
+  - tdlib-amd64-debug
+  - quickflux-amd64
+  - rlottie-amd64
+  - rlottie-qml-amd64
+
+
+publish:
+  <<: *amd64
+  stage: publish
+  rules:
+  - if: $CI_COMMIT_TAG
+  script:
+  - 'clickable publish --arch amd64 -- "$CI_COMMIT_MESSAGE"'
+  - 'clickable publish --arch arm64'
+  - 'clickable publish --arch armhf'
+  dependencies:
+  - teleports-amd64
+  - teleports-arm64
+  - teleports-armhf
+  artifacts:
+    paths:
+    - build/arm-linux-gnueabihf/app/*.click
+    - build/aarch64-linux-gnu/app/*.click
+    - build/x86_64-linux-gnu/app/*.click
+    expire_in: 30 days

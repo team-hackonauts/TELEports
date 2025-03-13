@@ -1,0 +1,5 @@
+import QtQuick 2.9
+
+MessageActionItem {
+    text: i18n.tr("Unsupported message")
+}
