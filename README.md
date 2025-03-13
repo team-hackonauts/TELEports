@@ -77,9 +77,5 @@ clickable desktop
 ```
 
 ## 🛠️ Report Issues
-If you encounter any issues or have suggestions, please report them here: [Report an Issue](reportissue-b645957cf-team-hackonauts-projects.vercel.app)
-
----
-
-Let me know if you need further modifications!
+If you encounter any issues or have suggestions, please report them here: [Report an Issue](https://reportissue.vercel.app/)
 
