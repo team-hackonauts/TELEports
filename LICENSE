@@ -1,32 +1,34 @@
-MIT License
+MIT License  
 
-Copyright (c) 2025 Enhanced TELEports
+Copyright (c) 2021 Dan Chapman, UBports Foundation  
+Copyright (c) 2025 Enhanced TELEports Contributors  
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  
 
 ---
-## (C) ubports: Dan Chapman
-UBports Foundation. (c) 2021
 
-### Third-Party Dependencies
-Enhanced TELEports uses **TDLib (Telegram Database Library)** for backend operations, database management, and communication with Telegram servers. TDLib is an official Telegram library available at: [https://github.com/tdlib/td](https://github.com/tdlib/td).
+About This Project  
 
-TDLib is licensed under the **Boost Software License**, which allows free use, modification, and distribution.
+Enhanced TELEports is a community-driven project built upon the work of Dan Chapman and the UBports Foundation. It is designed to provide a free and open-source Telegram client for Ubuntu Touch, ensuring seamless communication without any restrictions.  
 
+This project is fully open-source, and no individual or organization claims ownership over it. Anyone is free to use, modify, or distribute it without limitations.  
 
+---
+
+Third-Party Dependencies  
+
+Enhanced TELEports relies on:  
+
+- [TDLib (Telegram Database Library)](https://github.com/tdlib/td) – an official Telegram library for backend operations and communication with Telegram servers. Licensed under the Boost Software License.  
+
+- Ubuntu Touch Frameworks – maintained by the UBports Foundation, ensuring compatibility with Ubuntu Touch OS.  
+
+---
+
+Freedom to Use, Modify, and Share  
+
+This project belongs to the community. It is not owned, controlled, or restricted by any single entity. Everything here is free for everyone, forever.
