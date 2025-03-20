@@ -22,6 +22,7 @@ SOFTWARE.
 
 ---
 ## (C) ubports: Dan Chapman
+Bports Foundation. (c) 2021
 
 ### Third-Party Dependencies
 Enhanced TELEports uses **TDLib (Telegram Database Library)** for backend operations, database management, and communication with Telegram servers. TDLib is an official Telegram library available at: [https://github.com/tdlib/td](https://github.com/tdlib/td).
