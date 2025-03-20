@@ -1,5 +1,4 @@
 # 🚀 Enhanced TELEports
-
 **Enhanced TELEports** is a modified version of the TELEports application, designed to bring additional features and improvements to Telegram on Ubuntu Touch. This app enhances the user experience with added functionalities and optimizations while maintaining compatibility with the Ubuntu Touch ecosystem.
 
 🛠️ **Built for FOSS Fest Winter Hackathon**  
@@ -10,6 +9,8 @@ This project was developed as part of the **FOSS Fest Winter** hackathon. We are
 - 🔹 **Additional Features** – More capabilities beyond the stock TELEports app
 - 🔹 **Ubuntu Touch Integration** – Seamless adaptation to the platform
 - 🔹 **🔒 Secure Messaging** – Uses Telegram's API for encrypted communication
+
+(##still working in process on multiselect option , forward and delete option ,video recording)
 
 ## 📽️ Demo Video
 [![Watch the Demo](https://img.youtube.com/vi/kD_YSsya2FQ/0.jpg)](https://youtu.be/kD_YSsya2FQ?si=cjssnk7oqI09fgR5)
@@ -79,3 +80,6 @@ clickable desktop
 ## 🛠️ Report Issues
 If you encounter any issues or have suggestions, please report them here: [Report an Issue](https://reportissue.vercel.app/)
 
+##References
+1) Tdlibs Repositories
+2) Teleports Repositories
