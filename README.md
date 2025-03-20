@@ -80,6 +80,6 @@ clickable desktop
 ## 🛠️ Report Issues
 If you encounter any issues or have suggestions, please report them here: [Report an Issue](https://reportissue.vercel.app/)
 
-##References
+## References
 1) Tdlibs Repositories
 2) Teleports Repositories
