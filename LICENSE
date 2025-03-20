@@ -21,6 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
+## (C) ubports: Dan Chapman
 
 ### Third-Party Dependencies
 Enhanced TELEports uses **TDLib (Telegram Database Library)** for backend operations, database management, and communication with Telegram servers. TDLib is an official Telegram library available at: [https://github.com/tdlib/td](https://github.com/tdlib/td).
