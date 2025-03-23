@@ -5,6 +5,8 @@
 This project was developed as part of the **FOSS Fest Winter** hackathon. We are a team of students from **REVA University, Bangalore, India**, dedicated to open-source development and improving the Ubuntu Touch ecosystem.
 
 ## ✨ Features
+- 🔹 **Built with TDLib** – Uses Telegram Database Library (TDLib) for seamless integration
+- 🔹 **QML Frontend & C++ Backend** – QML for UI and C++ for backend & mediator logic
 - 🔹 **Improved UI & Performance** – A smoother and faster experience
 - 🔹 **Additional Features** – More capabilities beyond the stock TELEports app
 - 🔹 **Ubuntu Touch Integration** – Seamless adaptation to the platform
@@ -16,7 +18,6 @@ This project was developed as part of the **FOSS Fest Winter** hackathon. We are
 [![Watch the Demo](https://img.youtube.com/vi/kD_YSsya2FQ/0.jpg)](https://youtu.be/kD_YSsya2FQ?si=cjssnk7oqI09fgR5)
 
 ## ⚙️ Prerequisites
-
 Before installing **Enhanced TELEports**, ensure you have the required dependencies installed:
 
 ### 🖥️ Required Modules
@@ -80,6 +81,14 @@ clickable desktop
 ## 🛠️ Report Issues
 If you encounter any issues or have suggestions, please report them here: [Report an Issue](https://reportissue.vercel.app/)
 
-## References
-1) Tdlibs Repositories
-2) Teleports Repositories
+## References & Credits
+### 🔹 Additional References
+1) **Telegram API & TDLib** – [https://core.telegram.org/tdlib](https://core.telegram.org/tdlib)  
+2) **TELEports Repository** – [https://gitlab.com/ubports/apps/teleports](https://gitlab.com/ubports/apps/teleports)  
+3) **Ubuntu Touch** – [https://ubuntu-touch.io/](https://ubuntu-touch.io/)  
+
+### 🔹 Credits
+- **Telegram Team** for providing TDLib and API support.  
+- **UBports Community** for their work on TELEports.  
+- **Ubuntu Touch Developers** for maintaining the ecosystem.
+
